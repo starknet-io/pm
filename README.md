@@ -4,7 +4,7 @@ This repository serves as a central hub for project management related to the St
 
 ## StarkNet All Core Devs Meetings Overview
 ### Purpose
-StarkNet All Core Devs is a regular meeting held by the StarkNet development community to discuss technical issues and coordinate work on the StarkNet protocol. The meetings are attended by core contributors from various organizations. During the call, participants discuss potential protocol changes, testing and other related issues.The calls focus on StarkNet's protocol layer, including topics such as the Cairo programming language, the StarkNet OS, and the STARK proof system, . 
+StarkNet All Core Devs is a regular meeting held by the StarkNet development community to discuss technical issues and coordinate work on the StarkNet protocol. The meetings are attended by core contributors from various organizations. During the call, participants discuss potential protocol changes, testing and other related issues.The calls primarily focus on StarkNet client implementations, RPC specifications, networking layer, versioning, and more recently, consensus-related topics.
 
 The calls are streamed and saved on the [StarkNet YouTube channel](https://www.youtube.com/@starknet_foundation/playlists).
 
