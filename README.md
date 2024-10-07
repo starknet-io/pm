@@ -18,10 +18,9 @@ Anyone is welcome to add an item to the agenda as long as it follows these guide
 - The topic should not be philosophical. The core developer meetings are not meant to decide philosophical contentious issues that should be decided by the community. There are exceptions to this, but generally these topics distract from more productive technical discussions. [Starknet Forum](https://community.starknet.io/) is a better venue for such discussions.
 
 ### Who Can Attend
-Protocol developers, client developers, researchers and [SNIP](https://github.com/starknet-io/SNIPs) authors are encouraged to attend the meetings. If you feel you would contribute to the meetings by your attendance, please reach out to the meeting managers.
+Protocol developers, client developers, researchers and [SNIP](https://github.com/starknet-io/SNIPs) authors are encouraged to attend the meetings. If you feel you would contribute to the meetings by your attendance, please reach out to Aayush Giri or Leo.
 
 ### Who Manages the Meetings
-
-### Additional Resources
+The StarkNet All Core Devs meetings are facilitated by the StarkNet community, with support from the StarkNet Foundation (SNF). The meetings are broadcast on SNF channels, reflecting the collaborative nature of the StarkNet ecosystem.
 
 ### Previous AllCoreDevs Meetings
