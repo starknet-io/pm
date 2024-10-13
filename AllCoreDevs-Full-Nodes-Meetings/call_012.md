@@ -10,7 +10,7 @@
 
 ## Meeting Notes
 
-### 1. Starknet v0.13.3 readiness updates
+### 1. Starknet v0.13.3 readiness updates :
 
 - Juno (update by [Kirill Paltsev](https://github.com/kirugan)): They haven't started new block hash implementation but have almost finished all RPC endpoints, with three PRs in review stage. They've begun work on several WebSocket endpoints, not expecting completion before the next full node clients call but anticipating some merges before then.
 
@@ -18,7 +18,7 @@
 
 - Starkware (update by [Leonardo Lerer](https://github.com/leo-starkware)): No definitive timeline yet, but details will be communicated formally later. Tentative timeline may look like: integration starting early November, one month for remaining integrations, minimum one month on Sepolia testnet, mainnet upgrade targeted for early January, probably. Main focus for the upcoming version is Cairo native integration, which may not be fully complete at initial integration. They plan to provide something for client teams to work with until it's fully upgraded to the final stage, with potential upgrades during the integration timeline.
 
-### 2. P2P integration progress
+### 2. P2P integration progress :
 
 - Pathfinder (updated by [Leonardo Lerer](https://github.com/leo-starkware) on behalf): Implemented new block hash calculation algorithm for all blocks for P2P sync, so their endpoint hsould be ready for testing and sycn with old blocks as well, including historical ones. Feature believed to be merged into main branch, pending confirmation.
 
@@ -28,7 +28,7 @@
 
 - Kasar Labs ([Antiyro](https://github.com/antiyro)): Prioritizing sequencer development. Production readiness targeted for current month, focusing on Pragma chain integration. P2P client development scheduled as subsequent phase.
 
-### 3. Consensus implementation progress and design research discussions:
+### 3. Consensus implementation progress and design research discussions :
 #### Research
 [Denisa](https://github.com/denisadiaconescu) published a post on the Starknet Community forum on research involving SOS blocks, aimed at helping the protocol recover from unprovable blocks, which is crucial for protocol liveness. The research demonstrates, how SOS blocks can be used during consensus.
 - Key points:
@@ -61,12 +61,12 @@ The team is more optimistic now than a few weeks ago about solving this challeng
 The main focus is identifying the minimal part of Cairo needed to build the trace and either run it in a ZK VM or produce a ZK proof for it.
 This is currently the only missing ingredient in their implementation.
 
-### 4. RPC standardization:
+### 4. RPC standardization :
 No specific issues or resolutions addressed in the meeting.
-### 6. Client discrepancies:
+### 6. Client discrepancies :
 No specific issues or resolutions addressed in the meeting.
 
-### 7. Staking updates - Stage 2 preparations:
+### 7. Staking updates - Stage 2 preparations :
 - SNF compliance testing team: Update unavailable due to absence of team representatives.
 - [Mikolaj Barwicki](https://github.com/stranger80) and [Matteo Lisotto](https://github.com/Oghma) from the Nethermind team shared their ongoing internal discussions about improving the staking mechanism for Stage 2. They've been considering Nathan's ideas from the previous meeting and exploring ways to enhance the reliability of monitoring staker nodes that are expected to remain online. Their main concern was the lack of a liveness check in the current proposal, which led them to develop a new approach leveraging the P2P network.
 
@@ -80,7 +80,7 @@ Key points of their proposal:
 
 The team sees this as a promising way to verify staker node online status using both on-chain data and P2P network activity. They plan to refine these ideas internally before proposing them for public discussion, aiming to gather feedback and potentially improve the overall staking mechanism for Stage 2.
 
-### 8. AOB (Any Other Business):
+### 8. AOB (Any Other Business) :
 No additional topics or concerns raised by participants.
 
 -----
