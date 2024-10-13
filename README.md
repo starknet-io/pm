@@ -24,3 +24,7 @@ Protocol developers, client developers, researchers and [SNIP](https://github.co
 The StarkNet All Core Devs meetings are facilitated by the StarkNet community, with support from the StarkNet Foundation (SNF). The meetings are broadcast on SNF channels, reflecting the collaborative nature of the StarkNet ecosystem.
 
 ### Previous AllCoreDevs Meetings
+
+| Meeting | Date and Time | Agenda | Meeting Notes | Recording |
+|:-------:|:-------------:|:------:|:-------------:|:---------:|
+| Full Node Call #12 | Thursday, October 10, 2024, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/1) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_012.md) | [YouTube](https://www.youtube.com/watch?v=vvHvVMeUgRw) |
