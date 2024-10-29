@@ -85,7 +85,8 @@ No additional topics or concerns raised by participants.
 
 -----
 ### Attendees
-	
+
+- Aayush Giri (Moderator)	
 - Kirill Paltsev
 - Leonardo Lerer
 - Wojciech Zieba
