@@ -28,3 +28,4 @@ The StarkNet All Core Devs meetings are facilitated by the StarkNet community, w
 | Meeting | Date and Time | Agenda | Meeting Notes | Recording |
 |:-------:|:-------------:|:------:|:-------------:|:---------:|
 | Full Node Call #12 | Thursday, October 10, 2024, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/1) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_012.md) | [YouTube](https://www.youtube.com/watch?v=vvHvVMeUgRw) |
+| Full Node Call #13 | Thursday, October 24, 2024, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/2) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_013.md) | [YouTube](https://www.youtube.com/watch?v=qhKjI9v4SjA) |
