@@ -39,7 +39,7 @@ Technical discussion centered around the `starknet_subscribeNewHeads` endpoint i
 
 ### 6. AOB:
 
-Kasar Labs ([Antiyro](https://github.com/antiyro)): Team has launched their first production-ready private testnet from Pragma. The technical implementation enables deployment of custom chains, full nodes, and devnet environments through Madara. The system maintains compatibility with latest Starknet specifications while actively implementing v0.13.3 and v0.8.0. Notable technical achievement includes successful integration of full node deployment capabilities on Starknet using Madara and Kakarot, with team providing implementation support.
+Kasar Labs ([Antiyro](https://github.com/antiyro)): First appchain in production - private testnet from Pragma. The technical implementation enables users to deploy custom chains, full nodes, and devnet environments through Madara. The system maintains compatibility with latest Starknet specifications while actively implementing v0.13.3 and v0.8.0. Notable technical achievement includes successful integration of EVM full node deployment capabilities on Starknet using Madara and Kakarot, with team providing implementation support.
 
 -----
 ### Attendees
