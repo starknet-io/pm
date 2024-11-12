@@ -3,7 +3,7 @@
 
 - **Date & Time:** [Thursday, November 7, 2024, 12:00-12:30 AM UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20241107T120000&p1=1440&p2=37&p3=136&p4=237&p5=923&p6=204&p7=671&p8=16&p9=41&p10=107&p11=28&p12=438)
 - **Duration:** 30 minutes
-- **YouTube:** [https://youtube.com/live/ZcZff4v-USo](https://youtube.com/live/ZcZff4v-USo)
+- **YouTube:** [https://www.youtube.com/watch?v=6W8C9XzqKAw&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa](https://www.youtube.com/watch?v=6W8C9XzqKAw&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa)
 - **Agenda:** [https://github.com/starknet-io/pm/issues/3](https://github.com/starknet-io/pm/issues/3)
 - **Moderator:** [Leonardo Lerer](https://github.com/leo-starkware)
 
