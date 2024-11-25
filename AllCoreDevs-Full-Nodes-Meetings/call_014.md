@@ -58,7 +58,7 @@ Topic postponed due to time constraints. [Leonardo Lerer](https://github.com/leo
 - Leonardo Lerer
 - Antiyro
 - Shahak Shama
-- Kristzian Kovacs
+- Krisztian Kovacs
 - Llewellyn Morkel
 - Chris
 - Kirill Paltsev
