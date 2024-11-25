@@ -62,6 +62,7 @@ Teams discussed various approaches to handling schema changes and database migra
 ### Attendees
 
 - Aayush Giri (Moderator)	
+- Toni Tabak
 - Wojciech Zieba
 - Trantorian
 - Leonardo Lerer
