@@ -1,7 +1,7 @@
 # Starknet All Core Devs Meeting 
 ## Meeting Details
 
-- **Date & Time:** [Thursday, October 24, 2024, 11:00-11:30 AM UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20241024T110000&p1=1440)
+- **Date & Time:** [Thursday, October 24, 2024, 11:00-11:30 AM UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20241024T110000&p1=1440&p2=37&p3=136&p4=237&p5=923&p6=204&p7=671&p8=16&p9=41&p10=107&p11=28&p12=438)
 - **Duration:** 30 minutes
 - **YouTube:** [https://www.youtube.com/watch?v=qhKjI9v4SjA](https://www.youtube.com/watch?v=qhKjI9v4SjA)
 - **Agenda:** [https://github.com/starknet-io/pm/issues/2](https://github.com/starknet-io/pm/issues/2)
@@ -46,7 +46,7 @@ Kasar Labs ([Antiyro](https://github.com/antiyro)): First appchain in production
 
 - Aayush Giri (Moderator)
 - Leonardo Lerer
-- Kristzian Kovacs
+- Krisztian Kovacs
 - Tomasz K. Stanczak
 - Wojciech Zieba
 - Llewellyn Morkel
