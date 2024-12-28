@@ -43,7 +43,7 @@ In response to integration questions, Adi confirmed the team has published to cr
 
 ### 5. Execution and Consensus Layer Architecture
 
-[Shahak](https://github.com/ShahakShama) presented plans for P2P network splitting, proposing separate networks for sync nodes, consensus nodes, and MLE nodes. This architecture allows implementations to connect different components flexibly, though it may require specific protocol specifications for execution-consensus communication. The discussion explored language-agnostic implementation possibilities and message specification requirements, with participants suggesting potential inspiration from Ethereum's execution-consensus separation model. Network protocol boundary considerations formed a significant part of the conversation.
+[Shahak](https://github.com/ShahakShama) presented plans for P2P network splitting, proposing separate networks for sync nodes, consensus nodes, and Mempool nodes. This architecture allows implementations to connect different components flexibly, though it may require specific protocol specifications for execution-consensus communication. The discussion explored language-agnostic implementation possibilities and message specification requirements, with participants suggesting potential inspiration from Ethereum's execution-consensus separation model. Network protocol boundary considerations formed a significant part of the conversation.
 
 ### 6. Next Meeting Schedule
 
