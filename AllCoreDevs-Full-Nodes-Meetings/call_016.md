@@ -25,7 +25,7 @@ In response to questions about Cairo native from [Antiyro](https://github.com/an
 
 - Juno (update by [Kirill Paltsev](https://github.com/kirugan)) reported that [getStorageProof](https://github.com/NethermindEth/juno/pull/2194) remains their final endpoint to implement. The team is exploring internal trie implementation optimizations before merging and continues work on WebSocket implementation through open PRs. They aim to improve stability before finalizing the implementation.
 
-- Kasar Labs (update by [Trantorian](https://github.com/Trantorian1)) has nearly completed their RPC 0.8 implementation. The team has merged `getStorageProof` implementation, with `getMessageStatus` currently being merged. Only 2-3 WebSocket methods remain to be implemented, and they are on track for v0.13.4 readiness. They have begun exploring P2P implementation possibilities, though detailed updates were deferred to the P2P section.
+- Kasar Labs (update by [Antiyro](https://github.com/antiyro)) has nearly completed their RPC 0.8 implementation. The team has merged `getStorageProof` implementation, with `getMessageStatus` currently being merged. Only 2-3 WebSocket methods remain to be implemented, and they are on track for v0.13.4 readiness. They have begun exploring P2P implementation possibilities, though detailed updates were deferred to the P2P section.
 
 
 ### 4. Testing Infrastructure:
