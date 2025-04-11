@@ -5,7 +5,7 @@
 - **Duration:** 30 minutes
 - **YouTube:** https://www.youtube.com/watch?v=QHUOB6oHoJo&t=2s
 - **Agenda:** https://github.com/starknet-io/pm/issues/10
-- **Moderator:** Aayush Giri
+- **Moderator:** [Aayush Giri](https://github.com/Giri-Aayush)
 
 ## Meeting Notes
 
