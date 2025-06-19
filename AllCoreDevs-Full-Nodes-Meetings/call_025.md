@@ -59,15 +59,14 @@ Adi Seredinschi was not present - agenda item skipped.
 ### Attendees
 
 - Aayush Giri (Moderator)
-- Leonardo Lerer
+- Leonardo Lerer | Starkware
 - Krisztian | Equilibrium  
 - Vaclav | EQ
-- Rodrigo | Neth
+- Rodrigo | Nethermind
 - Trantorian (Kasarlabs)
 - Abel | EQ
-- Fireflies.ai Notetaker
 - Itay Dror
-- rian
+- rian | Nethermind
 - Eitan Moed
 - JB | Kasar
 - Wojciech Zieba
