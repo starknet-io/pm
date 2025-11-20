@@ -144,10 +144,11 @@ Starknet is a permissionless decentralized Validity-Rollup (often referred to as
 As of November 2025, Starknet has launched institutional Bitcoin staking. The team is working toward becoming Bitcoin's execution layer, enabling complex DeFi applications for Bitcoin holders while maintaining Ethereum's security guarantees.
 
 **Learn More:**
-- [Starknet Official Website](https://www.starknet.io/)
-- [Starknet Documentation](https://docs.starknet.io/)
-- [Starknet Community Forum](https://community.starknet.io/)
-- [Starknet Foundation](https://www.starknet.foundation/)
+
+[![Website](https://img.shields.io/badge/Website-starknet.io-5865F2)](https://www.starknet.io/)
+[![Documentation](https://img.shields.io/badge/Documentation-docs-blue)](https://docs.starknet.io/)
+[![Forum](https://img.shields.io/badge/Forum-Community-orange)](https://community.starknet.io/)
+[![Foundation](https://img.shields.io/badge/Foundation-Official-green)](https://www.starknet.foundation/)
 
 ---
 
