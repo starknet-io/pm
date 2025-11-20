@@ -350,7 +350,7 @@ Thank you for your time and contribution. Have a great rest of your day, and the
 - **Class hash**: Unique identifier for smart contract class definition
 - **Class hash trie**: Data structure storing class hashes using Sierra class hash as keys
 - **Sierra class hash**: Identifier for Sierra (high-level Cairo) contract class
-- **Kasm class hash**: Identifier for Kasm (compiled Cairo assembly) contract class; what actually updates in v0.14.1
+- **Casm class hash**: Identifier for Kasm (compiled Cairo assembly) contract class; what actually updates in v0.14.1
 - **Migrated class**: Contract class migrated from Poseidon to Blake2 hashing
 - **State diff**: Changes to blockchain state between blocks
 - **`starknet_getStateUpdate`**: RPC call retrieving state changes for a block; only place to include migrated classes
