@@ -25,6 +25,34 @@ Recent calls have focused on:
 - **Consensus Development** - Malachite v0.6 release coordination, Pathfinder consensus implementation, interoperability testing
 - **State Management** - Class hash trie handling, preconfirmed state execution, global state root calculations
 
+## Recent Meetings
+
+<table>
+  <tr>
+    <td align="center">
+      <b>Call #39</b><br>
+      Nov 6, 2025<br>
+      <a href="https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_039.md">
+        <img src="AllCoreDevs-Full-Nodes-Meetings/images/call_039_attendees.png" width="280"/>
+      </a>
+    </td>
+    <td align="center">
+      <b>Call #38</b><br>
+      Oct 23, 2025<br>
+      <a href="https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_038.md">
+        <img src="AllCoreDevs-Full-Nodes-Meetings/images/call_038_attendees.png" width="280"/>
+      </a>
+    </td>
+    <td align="center">
+      <b>Call #37</b><br>
+      Oct 9, 2025<br>
+      <a href="https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_037.md">
+        <img src="AllCoreDevs-Full-Nodes-Meetings/images/call_037_attendees.png" width="280"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## Starknet All Core Devs Meetings Overview
 ### Purpose
 Starknet All Core Devs is a regular meeting held by the Starknet development community to discuss technical issues and coordinate work on the Starknet protocol. The meetings are attended by core contributors from various organizations. During the call, participants discuss potential protocol changes, testing and other related issues. The calls primarily focus on Starknet client implementations, RPC specifications, networking layer, versioning, and more recently, consensus-related topics.
