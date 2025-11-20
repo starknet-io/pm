@@ -1,1 +1,60 @@
+# macOS
 **/.DS_Store
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+
+# Internal documentation (reference only, not for public repo)
+MEETING_NOTES_GUIDELINES.md
+
+# Temp/working files
+*.tmp
+*.log
+*.bak
+*.backup
+*.cache
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# System files
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Transcripts and notes
+*.txt
+*.docx
+*.pdf
+NoteGPT_*
+
+# IDE settings
+.claude/
+.cursor/
+.aider/
