@@ -178,7 +178,7 @@ Rodrigo confirmed Eitan already answered, so they only include it as part of `ge
 
 Aayush thanked Rodrigo.
 
-**Madara/Karnot** ([Heemank Verma](https://github.com/hemantwasthere)):
+**Madara/Karnot** ([Heemank Verma](https://github.com/heemankv)):
 
 Aayush invited Heemank to share updates regarding:
 - v0.14.0 completion status or v0.14.1 work evaluation and timelines
