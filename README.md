@@ -135,12 +135,6 @@ Core contributors include teams from:
 
 ---
 
-## Repository Topics
-
-`starknet` `ethereum` `layer2` `rollup` `zk-rollup` `protocol-development` `core-devs` `full-nodes` `client-implementations` `rpc-specification` `consensus` `blockchain` `meeting-notes` `technical-coordination` `cairo`
-
----
-
 ## About Starknet
 
 Starknet is a permissionless decentralized Validity-Rollup (often referred to as a "ZK-Rollup") operating as an Ethereum Layer 2 chain. It enables Ethereum to scale via cryptographic protocols called STARKs, without compromising Ethereum's core principles of decentralization, transparency, inclusivity, and security.
