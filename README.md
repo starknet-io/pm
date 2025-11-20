@@ -72,7 +72,9 @@ Anyone is welcome to add an item to the agenda as long as it follows these guide
 Protocol developers, client developers, researchers and [SNIP](https://github.com/starknet-io/SNIPs) authors are encouraged to attend the meetings. If you feel you would contribute to the meetings by your attendance, please reach out to [Aayush Giri](mailto:aayush@nethermind.io) or [Leonardo Lerer](mailto:leo@starkware.co).
 
 ### Who Manages the Meetings
-The Starknet All Core Devs meetings are facilitated by the Starknet community, with support from the Starknet Foundation (SNF). The meetings are broadcast on SNF channels, reflecting the collaborative nature of the Starknet ecosystem.
+Agenda preparation, call moderation, and repository management are handled by [Aayush Giri](https://github.com/Giri-Aayush) from Nethermind. The agenda is open to community input - anyone can propose topics by commenting on the meeting issues or requesting inclusion in upcoming calls. Contact [Aayush](mailto:aayush@nethermind.io) with questions or to suggest agenda items.
+
+The meetings are facilitated with support from the Starknet Foundation (SNF) and are broadcast on SNF channels, reflecting the collaborative nature of the Starknet ecosystem.
 
 ### Participating Organizations
 
@@ -146,10 +148,6 @@ Starknet is a permissionless decentralized Validity-Rollup (often referred to as
 - [Starknet Foundation](https://www.starknet.foundation/)
 
 ---
-
-**Repository Maintained By:** [Aayush Giri](https://github.com/Giri-Aayush) (Nethermind)
-
-**Questions or Feedback?** Open an issue in this repository or reach out via email: [aayush@nethermind.io](mailto:aayush@nethermind.io)
 
 **License:** This repository is licensed under [GPL-3.0](LICENSE).
 
