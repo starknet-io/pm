@@ -1,10 +1,33 @@
 # Starknet Project Management Repository
 
-This repository serves as a central hub for project management related to the Starknet protocol. Its primary function is to coordinate and document the Starknet All Core Devs meetings, which are crucial for the ongoing development and improvement of Starknet Ecosystem. Meeting agendas are tracked in the [Issues](https://github.com/starknet-io/pm/issues) tab of this repository, allowing for transparent and collaborative planning. Additionally, a Google Calendar is available to track upcoming protocol meetings, ensuring all interested parties can stay informed about scheduled discussions.
+[![Meeting Frequency](https://img.shields.io/badge/Meetings-Bi--weekly-blue)](https://github.com/starknet-io/pm/issues)
+[![Next Meeting](https://img.shields.io/badge/Next%20Meeting-Nov%2020%2C%202025-green)](https://github.com/starknet-io/pm/issues)
+[![YouTube](https://img.shields.io/badge/YouTube-Recordings-red?logo=youtube)](https://www.youtube.com/@starknet_foundation/playlists)
+[![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
+
+This repository serves as the central coordination hub for [Starknet](https://www.starknet.io/) protocol development. It provides comprehensive documentation of Starknet All Core Devs meetings, technical discussions, and protocol evolution decisions. Meeting agendas are tracked in the [Issues](https://github.com/starknet-io/pm/issues) tab of this repository, enabling transparent and collaborative planning across the Starknet ecosystem.
+
+## Quick Links
+
+- [Meeting Schedule & Agendas](https://github.com/starknet-io/pm/issues)
+- [Latest Meeting Notes](AllCoreDevs-Full-Nodes-Meetings/call_039.md)
+- [Video Recordings](https://www.youtube.com/@starknet_foundation/playlists)
+- [Starknet Forum](https://community.starknet.io/)
+
+## Latest Topics Under Discussion
+
+Recent calls have focused on:
+
+- **v0.14.1 Protocol Upgrade** - Blake2 hash function replacing Poseidon, RPC 1.0 implementation, potential deployment delays due to starknet.rs SDK ownership transfer
+- **Network Stability & Performance** - Post-v0.14.0 stability improvements, Aerospike dependency elimination, committer resilience, L1 handler transaction optimization
+- **Client Implementation Progress** - Pathfinder v0.14.1 integration, Juno syncing optimizations for 6-second blocks, Madara snap sync 5x performance improvements
+- **RPC Specification Evolution** - JSON-RPC 1.0 adoption, Blake2 hash precomputation strategies, state diff handling for migrated classes
+- **Consensus Development** - Malachite v0.6 release coordination, Pathfinder consensus implementation, interoperability testing
+- **State Management** - Class hash trie handling, preconfirmed state execution, global state root calculations
 
 ## Starknet All Core Devs Meetings Overview
 ### Purpose
-Starknet All Core Devs is a regular meeting held by the Starknet development community to discuss technical issues and coordinate work on the Starknet protocol. The meetings are attended by core contributors from various organizations. During the call, participants discuss potential protocol changes, testing and other related issues.The calls primarily focus on Starknet client implementations, RPC specifications, networking layer, versioning, and more recently, consensus-related topics.
+Starknet All Core Devs is a regular meeting held by the Starknet development community to discuss technical issues and coordinate work on the Starknet protocol. The meetings are attended by core contributors from various organizations. During the call, participants discuss potential protocol changes, testing and other related issues. The calls primarily focus on Starknet client implementations, RPC specifications, networking layer, versioning, and more recently, consensus-related topics.
 
 The calls are streamed and saved on the [Starknet YouTube channel](https://www.youtube.com/@starknet_foundation/playlists).
 
@@ -23,34 +46,88 @@ Protocol developers, client developers, researchers and [SNIP](https://github.co
 ### Who Manages the Meetings
 The Starknet All Core Devs meetings are facilitated by the Starknet community, with support from the Starknet Foundation (SNF). The meetings are broadcast on SNF channels, reflecting the collaborative nature of the Starknet ecosystem.
 
+### Participating Organizations
+
+Core contributors include teams from:
+
+- **[Starkware](https://starkware.co/)** - Protocol development and sequencer coordination
+- **[Nethermind](https://www.nethermind.io/)** - Juno client implementation
+- **[Equilibrium](https://equilibrium.co/)** - Pathfinder client implementation
+- **[Karnot](https://karnot.xyz/)** - Madara client implementation and SNOS development
+- **[Informal Systems](https://informal.systems/)** - Malachite consensus engine
+- **Independent Researchers** - Protocol research and SNIP development
+
+### How to Contribute
+
+1. **Propose Agenda Items** - Add comments to upcoming meeting issues to suggest discussion topics
+2. **Join Meetings** - Protocol developers, client developers, and researchers are encouraged to attend. Contact [Aayush Giri](mailto:aayush@nethermind.io) or [Leonardo Lerer](mailto:leo@starkware.co) for calendar invites
+3. **Review Meeting Notes** - Provide technical feedback and corrections via GitHub issues
+4. **Participate in Technical Discussions** - Join the conversation in Slack channels and the [Starknet Forum](https://community.starknet.io/)
+5. **Contribute to SNIPs** - Propose protocol improvements through the [SNIP process](https://github.com/starknet-io/SNIPs)
+
 ### Previous AllCoreDevs Meetings
-| Meeting | Date and Time | Agenda | Meeting Notes | Recording |
-|:-------:|:-------------:|:------:|:-------------:|:---------:|
-| Full Node Call #12 | Thursday, October 10, 2024, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/1) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_012.md) | [YouTube](https://www.youtube.com/watch?v=vvHvVMeUgRw) |
-| Full Node Call #13 | Thursday, October 24, 2024, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/2) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_013.md) | [YouTube](https://www.youtube.com/watch?v=qhKjI9v4SjA) |
-| Full Node Call #14 | Thursday, November 7, 2024, 12:00-12:30 PM UTC | [Link](https://github.com/starknet-io/pm/issues/3) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_014.md) | [YouTube](https://www.youtube.com/watch?v=6W8C9XzqKAw&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa) |
-| Full Node Call #15 | Thursday, November 21, 2024, 12:00-12:30 PM UTC | [Link](https://github.com/starknet-io/pm/issues/5) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_015.md) | [YouTube](https://www.youtube.com/watch?v=QeSYeCxswfo&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa) |
-| Full Node Call #16 | Thursday, December 5, 2024, 12:00-12:30 PM UTC | [Link](https://github.com/starknet-io/pm/issues/6) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_016.md) | [YouTube](https://www.youtube.com/watch?v=-HWTvHMBQIQ&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=2&t=1298s) |
-| Full Node Call #17 | Thursday, December 19, 2024, 12:00-12:30 PM UTC | [Link](https://github.com/starknet-io/pm/issues/7) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_017.md) | [YouTube](https://www.youtube.com/watch?v=TOFQG5ic8UA&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=1) |
-| Full Node Call #18 | Thursday, January 16, 2025, 12:00-12:30 PM UTC | [Link](https://github.com/starknet-io/pm/issues/8) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_018.md) | [YouTube](https://www.youtube.com/watch?v=93t37QP8DME&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=13) |
-| Full Node Call #19 | Thursday, January 30, 2025, 12:00-12:30 PM UTC | [Link](https://github.com/starknet-io/pm/issues/9) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_019.md) | [YouTube](https://www.youtube.com/watch?v=JQoMZTtZbJU&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=12) |
-| Full Node Call #20 | Thursday, February 13, 2025, 12:00-12:30 PM UTC | [Link](https://github.com/starknet-io/pm/issues/10) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_020.md) | [YouTube](https://www.youtube.com/watch?v=QHUOB6oHoJo&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=11) |
-| Full Node Call #21 | Thursday, February 27, 2025, 12:00-12:30 PM UTC | [Link](https://github.com/starknet-io/pm/issues/11) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_021.md) | [YouTube](https://www.youtube.com/watch?v=x84vu_AJlkM&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=10) |
-| Full Node Call #22 | Thursday, March 13, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/12) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_022.md) | [Part 1](https://www.youtube.com/watch?v=fCIikziOhDg&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=9) [Part 2](https://www.youtube.com/watch?v=D-RrtbUL87s&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=8) |
-| Full Node Call #23 | Thursday, March 27, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/13) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_023.md) | [YouTube](https://www.youtube.com/watch?v=Z_-3LktkmCY&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=7) |
-| Full Node Call #24 | Thursday, April 10, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/14) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_024.md) | [YouTube](https://www.youtube.com/live/FajAn70HHRA) |
-| Full Node Call #25 | Thursday, April 24, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/15) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_025.md) | [YouTube](https://www.youtube.com/live/1jTe8vL72II) |
-| Full Node Call #26 | Thursday, May 8, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/16) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_026.md) | [YouTube](https://www.youtube.com/live/fmdEtDpVFpw) |
-| Full Node Call #27 | Thursday, May 22, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/17) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_027.md) | [YouTube](https://www.youtube.com/live/RfY-W62jQxw) |
-| Full Node Call #28 | Thursday, June 5, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/18) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_028.md) | [YouTube](https://www.youtube.com/live/EEqyonZXIm4) |
-| Full Node Call #29 | Thursday, June 19, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/19) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_029.md) | [YouTube](https://www.youtube.com/live/vcX2UO9zWyk) |
-| Full Node Call #30 | Thursday, July 3, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/20) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_030.md) | [YouTube](https://www.youtube.com/live/DDiBTVZeZAk) |
-| Full Node Call #31 | Thursday, July 17, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/21) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_031.md) | [YouTube](https://www.youtube.com/live/7askHSXeP3s) |
-| Full Node Call #32 | Thursday, July 31, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/22) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_032.md) | [YouTube](https://www.youtube.com/live/XSCYZUVZ-d0) |
-| Full Node Call #33 | Thursday, August 14, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/23) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_033.md) | [YouTube](https://www.youtube.com/live/bhly4N1B1GQ) |
-| Full Node Call #34 | Thursday, August 28, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/24) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_034.md) | [YouTube](https://www.youtube.com/watch?v=o3vvBnQNJOU&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=1) |
-| Full Node Call #35 | Thursday, September 11, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/25) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_035.md) | [YouTube](https://www.youtube.com/live/6rrlUwF_5bU) |
-| Full Node Call #36 | Thursday, September 25, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/26) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_036.md) | [YouTube](https://www.youtube.com/live/9WLahsTnfsc) |
-| Full Node Call #37 | Thursday, October 9, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/27) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_037.md) | [YouTube](https://www.youtube.com/live/ioXc1xvrAWs) |
-| Full Node Call #38 | Thursday, October 23, 2025, 11:00-11:30 AM UTC | [Link](https://github.com/starknet-io/pm/issues/28) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_038.md) | [YouTube](https://www.youtube.com/live/BjRMtKVP5Sw) |
-| Full Node Call #39 | Thursday, November 6, 2025, 12:00-12:30 PM UTC | [Link](https://github.com/starknet-io/pm/issues/29) | [Notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_039.md) | [YouTube](https://www.youtube.com/live/UtKwgM8DV4U) |
+
+**Note:** Comprehensive meeting notes are published within 3 business days following each call.
+
+<details>
+<summary>Full Node Calls</summary>
+
+| № | Date | Agenda | Notes | Recording |
+| --- | ------ | ----- | ----- | ----- |
+| 39 | Thursday, November 6, 2025, 12:00-12:30 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/29) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_039.md) | [video](https://www.youtube.com/live/UtKwgM8DV4U) |
+| 38 | Thursday, October 23, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/28) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_038.md) | [video](https://www.youtube.com/live/BjRMtKVP5Sw) |
+| 37 | Thursday, October 9, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/27) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_037.md) | [video](https://www.youtube.com/live/ioXc1xvrAWs) |
+| 36 | Thursday, September 25, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/26) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_036.md) | [video](https://www.youtube.com/live/9WLahsTnfsc) |
+| 35 | Thursday, September 11, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/25) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_035.md) | [video](https://www.youtube.com/live/6rrlUwF_5bU) |
+| 34 | Thursday, August 28, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/24) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_034.md) | [video](https://www.youtube.com/watch?v=o3vvBnQNJOU&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=1) |
+| 33 | Thursday, August 14, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/23) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_033.md) | [video](https://www.youtube.com/live/bhly4N1B1GQ) |
+| 32 | Thursday, July 31, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/22) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_032.md) | [video](https://www.youtube.com/live/XSCYZUVZ-d0) |
+| 31 | Thursday, July 17, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/21) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_031.md) | [video](https://www.youtube.com/live/7askHSXeP3s) |
+| 30 | Thursday, July 3, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/20) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_030.md) | [video](https://www.youtube.com/live/DDiBTVZeZAk) |
+| 29 | Thursday, June 19, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/19) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_029.md) | [video](https://www.youtube.com/live/vcX2UO9zWyk) |
+| 28 | Thursday, June 5, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/18) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_028.md) | [video](https://www.youtube.com/live/EEqyonZXIm4) |
+| 27 | Thursday, May 22, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/17) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_027.md) | [video](https://www.youtube.com/live/RfY-W62jQxw) |
+| 26 | Thursday, May 8, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/16) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_026.md) | [video](https://www.youtube.com/live/fmdEtDpVFpw) |
+| 25 | Thursday, April 24, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/15) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_025.md) | [video](https://www.youtube.com/live/1jTe8vL72II) |
+| 24 | Thursday, April 10, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/14) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_024.md) | [video](https://www.youtube.com/live/FajAn70HHRA) |
+| 23 | Thursday, March 27, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/13) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_023.md) | [video](https://www.youtube.com/watch?v=Z_-3LktkmCY&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=7) |
+| 22 | Thursday, March 13, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/12) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_022.md) | [Part 1](https://www.youtube.com/watch?v=fCIikziOhDg&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=9) [Part 2](https://www.youtube.com/watch?v=D-RrtbUL87s&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=8) |
+| 21 | Thursday, February 27, 2025, 12:00-12:30 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/11) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_021.md) | [video](https://www.youtube.com/watch?v=x84vu_AJlkM&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=10) |
+| 20 | Thursday, February 13, 2025, 12:00-12:30 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/10) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_020.md) | [video](https://www.youtube.com/watch?v=QHUOB6oHoJo&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=11) |
+| 19 | Thursday, January 30, 2025, 12:00-12:30 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/9) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_019.md) | [video](https://www.youtube.com/watch?v=JQoMZTtZbJU&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=12) |
+| 18 | Thursday, January 16, 2025, 12:00-12:30 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/8) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_018.md) | [video](https://www.youtube.com/watch?v=93t37QP8DME&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=13) |
+| 17 | Thursday, December 19, 2024, 12:00-12:30 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/7) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_017.md) | [video](https://www.youtube.com/watch?v=TOFQG5ic8UA&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=1) |
+| 16 | Thursday, December 5, 2024, 12:00-12:30 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/6) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_016.md) | [video](https://www.youtube.com/watch?v=-HWTvHMBQIQ&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa&index=2&t=1298s) |
+| 15 | Thursday, November 21, 2024, 12:00-12:30 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/5) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_015.md) | [video](https://www.youtube.com/watch?v=QeSYeCxswfo&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa) |
+| 14 | Thursday, November 7, 2024, 12:00-12:30 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/3) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_014.md) | [video](https://www.youtube.com/watch?v=6W8C9XzqKAw&list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa) |
+| 13 | Thursday, October 24, 2024, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/2) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_013.md) | [video](https://www.youtube.com/watch?v=qhKjI9v4SjA) |
+| 12 | Thursday, October 10, 2024, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/1) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_012.md) | [video](https://www.youtube.com/watch?v=vvHvVMeUgRw) |
+
+</details>
+
+---
+
+## Repository Topics
+
+`starknet` `ethereum` `layer2` `rollup` `zk-rollup` `protocol-development` `core-devs` `full-nodes` `client-implementations` `rpc-specification` `consensus` `blockchain` `meeting-notes` `technical-coordination` `cairo`
+
+---
+
+## About Starknet
+
+Starknet is a permissionless decentralized Validity-Rollup (often referred to as a "ZK-Rollup") operating as an Ethereum Layer 2 chain. It enables Ethereum to scale via cryptographic protocols called STARKs, without compromising Ethereum's core principles of decentralization, transparency, inclusivity, and security.
+
+**Learn More:**
+- [Starknet Official Website](https://www.starknet.io/)
+- [Starknet Documentation](https://docs.starknet.io/)
+- [Starknet Community Forum](https://community.starknet.io/)
+- [Starknet Foundation](https://www.starknet.foundation/)
+
+---
+
+**Repository Maintained By:** [Aayush Giri](https://github.com/Giri-Aayush) (Nethermind)
+
+**Questions or Feedback?** Open an issue in this repository or reach out via email: [aayush@nethermind.io](mailto:aayush@nethermind.io)
+
+**License:** This repository is licensed under [GPL-3.0](LICENSE).
+
