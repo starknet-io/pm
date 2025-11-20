@@ -139,7 +139,9 @@ Core contributors include teams from:
 
 ## About Starknet
 
-Starknet is a permissionless decentralized Validity-Rollup (often referred to as a "ZK-Rollup") operating as an Ethereum Layer 2 chain. It enables Ethereum to scale via cryptographic protocols called STARKs, without compromising Ethereum's core principles of decentralization, transparency, inclusivity, and security.
+Starknet is a permissionless decentralized Validity-Rollup (often referred to as a "ZK-Rollup") that operates as an Ethereum Layer 2 network and Bitcoin DeFi layer. It enables decentralized applications to achieve massive scalability using STARK proofs (Scalable Transparent ARgument of Knowledge) to bundle transactions off-chain before submitting them to Ethereum as a single transaction.
+
+As of November 2025, Starknet has launched institutional Bitcoin staking. The team is working toward becoming Bitcoin's execution layer, enabling complex DeFi applications for Bitcoin holders while maintaining Ethereum's security guarantees.
 
 **Learn More:**
 - [Starknet Official Website](https://www.starknet.io/)
