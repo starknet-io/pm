@@ -268,4 +268,4 @@ Hearing none, Ohad thanked everyone: **"See you in the next call in two weeks at
 
 ---
 
-*These notes were compiled from the October 9, 2025 Starknet All Core Devs call. For the most accurate information, please refer to the [full recording](https://www.youtube.com/live/ioXc1xvrAWs).*
+*These notes were compiled by [Aayush Giri](https://github.com/Giri-Aayush) from the October 9, 2025 Starknet All Core Devs call. For the most accurate information, please refer to the [full recording](https://www.youtube.com/live/ioXc1xvrAWs).*

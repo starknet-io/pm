@@ -24,14 +24,14 @@ This pre-v0.14.1 deployment meeting occurred with **Aayush back as moderator** (
 - **Pathfinder merged main v0.14.1 PR**; integration network syncing successful; implementing Blake2 hash precomputation for blockifier; release targeting early next week
 - Pathfinder fixed preconfirmed state execution bug (missing state updates in certain cases)
 - **Juno clarified class hash trie concern**: Kasm class hash updating, but trie keys use Sierra class hash—no trie impact
-- Juno question on migrated classes in state diffs; **Eitan clarified: exclude from state diffs except in `starknet_getStateUpdate`**
+- Juno question on migrated classes in state diffs; **[Eitan](https://github.com/eitanm-starkware) clarified: exclude from state diffs except in `starknet_getStateUpdate`**
 - Juno refactoring sync/execution packages; release Friday with faster syncing (optimized for 6s blocks vs previous 30s assumption)
 - **Madara v0.14.0 and SNOS pre-releases ready**; v0.14.1 evaluation starting soon
 - **Madara snap sync optimization: 5x faster syncing** by batching state trie calculations
 - Madara orchestrator supports automatic version migration (X→Y without restart)
 - **Madara blocked on Herodotus for v0.14.2 aggregator**; expecting resolution by next call
 - Malachite v0.6: still waiting for Circle to cut release; no major developments or issues
-- **v0.14.2 discussions ongoing** but nothing concrete yet; Eitan will update next call
+- **v0.14.2 discussions ongoing** but nothing concrete yet; [Eitan](https://github.com/eitanm-starkware) will update next call
 
 ## Meeting Notes
 
@@ -47,14 +47,14 @@ Aayush noted they have **five main agenda items** to cover and would like to kee
 
 ### 1. v0.14.1 Network Updates and Timeline
 
-**Eitan Moed** (Starkware):
+**Starkware** ([Eitan Moed](https://github.com/eitanm-starkware)):
 
-Aayush introduced the first agenda item: v0.14.1 network updates and timeline. He invited Eitan to provide current status, specifically:
+Aayush introduced the first agenda item: v0.14.1 network updates and timeline. He invited [Eitan](https://github.com/eitanm-starkware) to provide current status, specifically:
 - Integration network deployment status and experience
 - RPC feedback and any new updates
 - Poseidon to Blake2 hash migration—any issues or edge cases
 
-Eitan thanked Aayush and began the update.
+[Eitan](https://github.com/eitanm-starkware) thanked Aayush and began the update.
 
 **Integration Deployment Status:**
 
@@ -64,11 +64,11 @@ Regarding v0.14.1: **they are on track in terms of integration deployment status
 
 One of the **challenges that has risen over the past week or so**: the **starknet.rs SDK ownership has moved to SVM**. As part of their **onboarding onto the SDK**, Starkware thinks they **might need to give them a bit more time** to get on top of things **before the release of testnet and mainnet**.
 
-Therefore, **Eitan is not able to confirm that they will release testnet and mainnet v0.14.1 as scheduled**. There **might be a pushback by a couple of days**. That's what they're looking at in regards to timeline.
+Therefore, **[Eitan](https://github.com/eitanm-starkware) is not able to confirm that they will release testnet and mainnet v0.14.1 as scheduled**. There **might be a pushback by a couple of days**. That's what they're looking at in regards to timeline.
 
 **RPC 1.0 Feedback:**
 
-In terms of the RPC: they **haven't gotten too much feedback from RPC 1.0.0**. In Eitan's interpretation, **"no feedback is good feedback"**—it means people have been able to **work with it well** and there's **no pushback on any of the new calls** that were added to the RPC.
+In terms of the RPC: they **haven't gotten too much feedback from RPC 1.0.0**. In [Eitan](https://github.com/eitanm-starkware)'s interpretation, **"no feedback is good feedback"**—it means people have been able to **work with it well** and there's **no pushback on any of the new calls** that were added to the RPC.
 
 **Poseidon to Blake2 Migration Updates:**
 
@@ -76,27 +76,27 @@ In terms of Poseidon to Blake2 migration updates: **one of the discussions on th
 
 That is probably **the main focus in terms of Poseidon to Blake2 migration** and the full node teams.
 
-Aside from that, Eitan doesn't have anything else to really update.
+Aside from that, [Eitan](https://github.com/eitanm-starkware) doesn't have anything else to really update.
 
 **Timeline Clarification:**
 
-Aayush asked: could Eitan give a timeline for testnet and mainnet deployments, even though they're very vague, just so they can have something in mind?
+Aayush asked: could [Eitan](https://github.com/eitanm-starkware) give a timeline for testnet and mainnet deployments, even though they're very vague, just so they can have something in mind?
 
-Eitan responded: **If they get pushed back, the assumption is they could be pushed back up to a week**. That is what they're looking at. He'll have more—
+[Eitan](https://github.com/eitanm-starkware) responded: **If they get pushed back, the assumption is they could be pushed back up to a week**. That is what they're looking at. He'll have more—
 
 (Aayush started to ask something but stopped.)
 
-Eitan was going to add: he'll have more information as it becomes available.
+[Eitan](https://github.com/eitanm-starkware) was going to add: he'll have more information as it becomes available.
 
 **Other Blockers or Concerns:**
 
 Aayush asked: are there any more **blockers or concerns that everyone should be aware of** at this stage, apart from the Poseidon to Blake2 cache migration?
 
-Eitan confirmed: **No, not as far as he's aware at this time.** The blocker seems to be **starknet.rs**. It's **even unrelated to these things they're working on** (the hash precomputation, etc.).
+[Eitan](https://github.com/eitanm-starkware) confirmed: **No, not as far as he's aware at this time.** The blocker seems to be **starknet.rs**. It's **even unrelated to these things they're working on** (the hash precomputation, etc.).
 
 Once they get a better picture on **how long it will take SVM to onboard**, then they'll know exactly the timeline—if it's pushed to a week, half a week, a couple of days. But they have that hanging in the background, and that's why they're updating the community now.
 
-Aayush thanked Eitan for the comprehensive update.
+Aayush thanked [Eitan](https://github.com/eitanm-starkware) for the comprehensive update.
 
 ### 2. Client Team v0.14.1 Readiness Updates
 
@@ -115,7 +115,7 @@ Krisztian confirmed: they have **pretty much just merged the main PR that enable
 
 **Blake2 Hash Precomputation:**
 
-As Eitan mentioned, they're still **working on improving execution by precomputing Blake2 hashes for compiled classes ahead of time**. Actually, they **realized pretty late during development that this is a new requirement for execution**.
+As [Eitan](https://github.com/eitanm-starkware) mentioned, they're still **working on improving execution by precomputing Blake2 hashes for compiled classes ahead of time**. Actually, they **realized pretty late during development that this is a new requirement for execution**.
 
 Up to that point, they **thought they could avoid recomputing these class hashes altogether** and just **use the data published by the feeder gateway in blocks**—but then they **realized this is not the case**. They **do need to be able to do that calculation for execution**, specifically for **blockifier purposes**.
 
@@ -160,7 +160,7 @@ There are **some things that are not very clear to them**. The discussion is con
 
 **Eitan's Clarification:**
 
-Eitan jumped in to **quickly answer it now**: the idea is to **not include them in the state diff unless it's a `starknet_getStateUpdate`**. As Rodrigo was asking. They can discuss it more in the channel.
+[Eitan](https://github.com/eitanm-starkware) jumped in to **quickly answer it now**: the idea is to **not include them in the state diff unless it's a `starknet_getStateUpdate`**. As Rodrigo was asking. They can discuss it more in the channel.
 
 Rodrigo acknowledged: Okay, okay. That makes their life a lot easier.
 
@@ -174,7 +174,7 @@ That should be **ready later today or early tomorrow** (November 7th)—that wil
 
 Aayush confirmed: anyway they're going to discuss this on the Slack channel, right, about the doubt regarding class hashes?
 
-Rodrigo confirmed Eitan already answered, so they only include it as part of `getStateUpdate`—that makes their life a lot easier.
+Rodrigo confirmed [Eitan](https://github.com/eitanm-starkware) already answered, so they only include it as part of `getStateUpdate`—that makes their life a lot easier.
 
 Aayush thanked Rodrigo.
 
@@ -223,7 +223,7 @@ Aayush thanked Heemank for the update.
 
 ### 3. Network Stability and Performance
 
-Aayush noted the next item is **network stability and performance**, but he believes **Eitan has already given them information about this** (in the v0.14.1 section).
+Aayush noted the next item is **network stability and performance**, but he believes **[Eitan](https://github.com/eitanm-starkware) has already given them information about this** (in the v0.14.1 section).
 
 (No additional discussion on this topic.)
 
@@ -251,9 +251,9 @@ Aayush thanked Jasmina.
 
 **v0.14.2 Planning:**
 
-Aayush asked a question to Eitan: **Is there planning being done for v0.14.2 by any chance right now, or no?**
+Aayush asked a question to [Eitan](https://github.com/eitanm-starkware): **Is there planning being done for v0.14.2 by any chance right now, or no?**
 
-Eitan responded: **Good question.** v0.14.2—he'll have **more information on it for the next call**. Currently, once they get some of the— It's a good question. He'll get back to Aayush on it in the next call.
+[Eitan](https://github.com/eitanm-starkware) responded: **Good question.** v0.14.2—he'll have **more information on it for the next call**. Currently, once they get some of the— It's a good question. He'll get back to Aayush on it in the next call.
 
 Currently there are **discussions on it**, but there's **nothing concrete** for them to put out there now. Hopefully they'll have **more to say on it next time**.
 
@@ -291,18 +291,18 @@ Thank you for your time and contribution. Have a great rest of your day, and the
 | Pathfinder targeting early next week for v0.14.1 release with Blake2 precomputation | Main PR merged; integration testing successful; need to complete hash precomputation | Ready for testnet/mainnet deployment pending Starkware timeline |
 | Juno releasing Friday (Nov 7) with syncing optimizations for 6s blocks | Previous 30s block assumption causing sync lag; v0.14.0 blocks now 6s | Juno nodes stay current with network in real-time |
 | Madara prioritizing v0.14.0 completion before v0.14.1 evaluation | Pre-releases ready for both Madara and SNOS v0.14.0 | v0.14.1 work begins after v0.14.0 releases |
-| v0.14.2 discussions ongoing but nothing concrete yet | Still evaluating features and timeline | Eitan will provide update in next call (Nov 20) |
+| v0.14.2 discussions ongoing but nothing concrete yet | Still evaluating features and timeline | [Eitan](https://github.com/eitanm-starkware) will provide update in next call (Nov 20) |
 
 ## Action Items Tracker
 
 | Action Item | Owner | Target Date | Status |
 |-------------|-------|-------------|--------|
-| Coordinate with SVM on starknet.rs SDK onboarding timeline | Starkware (Eitan) | ASAP | In Progress |
-| Determine final v0.14.1 testnet/mainnet deployment dates | Starkware (Eitan) | Within 1 week | Pending |
-| Coordinate Blake2 hash precomputation strategy with client teams | Starkware (Eitan) + Pathfinder + Juno | Ongoing | In Progress |
+| Coordinate with SVM on starknet.rs SDK onboarding timeline | Starkware ([Eitan](https://github.com/eitanm-starkware)) | ASAP | In Progress |
+| Determine final v0.14.1 testnet/mainnet deployment dates | Starkware ([Eitan](https://github.com/eitanm-starkware)) | Within 1 week | Pending |
+| Coordinate Blake2 hash precomputation strategy with client teams | Starkware ([Eitan](https://github.com/eitanm-starkware)) + Pathfinder + Juno | Ongoing | In Progress |
 | Release Pathfinder v0.14.1 with Blake2 precomputation | Equilibrium (Krisztian) | Early next week (~Nov 11-13) | In Progress |
 | Continue Pathfinder consensus implementation development | Equilibrium (Krisztian) | Ongoing | In Progress |
-| Clarify migrated class state diff questions on Slack channel | Starkware (Eitan) + Juno (Rodrigo) | Ongoing | In Progress |
+| Clarify migrated class state diff questions on Slack channel | Starkware ([Eitan](https://github.com/eitanm-starkware)) + Juno (Rodrigo) | Ongoing | In Progress |
 | Release Juno with syncing optimizations and bug fixes | Juno (Rodrigo) | November 7, 2025 | In Progress |
 | Complete Juno RPC 1.0 implementation | Juno (Rodrigo) | Before v0.14.1 mainnet | In Progress |
 | Release Juno v0.14.1 | Juno (Rodrigo) | ~Nov 17-21, 2025 | Planned |
@@ -312,7 +312,7 @@ Thank you for your time and contribution. Have a great rest of your day, and the
 | Resolve Herodotus blocker for v0.14.2 aggregator | Herodotus + Karnot (Heemank) | By next call (Nov 20) | In Progress |
 | Wait for Circle to cut Malachite v0.6 release | Circle (coordinated with Informal) | Sometime soon | Pending |
 | Update community on Malachite v0.6 release via Slack | Informal Systems (Jasmina) | Upon release | Pending |
-| Provide v0.14.2 planning update | Starkware (Eitan) | November 20, 2025 | Scheduled |
+| Provide v0.14.2 planning update | Starkware ([Eitan](https://github.com/eitanm-starkware)) | November 20, 2025 | Scheduled |
 | Hold next All Core Devs call at new time | Aayush Giri | November 20, 2025, 12:00 PM UTC | Scheduled |
 
 ## Attendees
@@ -376,6 +376,4 @@ Thank you for your time and contribution. Have a great rest of your day, and the
 
 ---
 
-**Next Meeting:** Thursday, November 20, 2025, 12:00 PM UTC
-
-**Note:** These Starknet All Core Devs Calls occur bi-weekly at the same time. All interested parties are encouraged to join and contribute to the ongoing discussions and development efforts.
+*These notes were compiled by [Aayush Giri](https://github.com/Giri-Aayush) from the November 6, 2025 Starknet All Core Devs call. For the most accurate information, please refer to the [full recording](https://www.youtube.com/live/g9nxlda0xOw).*

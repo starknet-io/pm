@@ -5,7 +5,7 @@
 - **Duration:** ~20 minutes (shorter than usual)
 - **YouTube:** https://www.youtube.com/live/BjRMtKVP5Sw
 - **Agenda:** https://github.com/starknet-io/pm/issues/28
-- **Moderator:** Eitan Moed (Aayush on flight)
+- **Moderator:** [Eitan Moed](https://github.com/eitanm-starkware) (Aayush on flight)
 
 ## Meeting Screenshot
 
@@ -13,7 +13,7 @@
 
 ## Executive Summary
 
-This pre-v0.14.1 coordination meeting was moderated by **Eitan Moed** (Aayush on flight). Focus: v0.14.1 deployment timeline and readiness assessment one month before mainnet. Key outcomes:
+This pre-v0.14.1 coordination meeting was moderated by **[Eitan Moed](https://github.com/eitanm-starkware)** (Aayush on flight). Focus: v0.14.1 deployment timeline and readiness assessment one month before mainnet. Key outcomes:
 
 - **v0.14.1 pre-release notes published**; RPC 1.0 RC1 published same day
 - **Major change: Blake2 hash function replacing Poseidon** in v0.14.1
@@ -29,19 +29,19 @@ This pre-v0.14.1 coordination meeting was moderated by **Eitan Moed** (Aayush on
 
 ## Meeting Notes
 
-The meeting opened with Eitan Moed noting this is the bi-weekly call this week and **he'll be moderating as Aayush is on a flight**. For today's agenda, he'll start with v0.14.1.
+The meeting opened with [Eitan Moed](https://github.com/eitanm-starkware) noting this is the bi-weekly call this week and **he'll be moderating as Aayush is on a flight**. For today's agenda, he'll start with v0.14.1.
 
 ### 1. v0.14.1 Integration Deployment Update
 
-**Eitan Moed** (Starkware):
+**Starkware** ([Eitan Moed](https://github.com/eitanm-starkware)):
 
-Eitan wasn't present during the last call (Call #37, moderated by Ohad), so he wasn't sure how much everyone's been updated. He **just published the pre-release notes** and would love feedback when people get a chance. He saw Rodrigo already posted something and will get back to it.
+[Eitan](https://github.com/eitanm-starkware) wasn't present during the last call (Call #37, moderated by Ohad), so he wasn't sure how much everyone's been updated. He **just published the pre-release notes** and would love feedback when people get a chance. He saw Rodrigo already posted something and will get back to it.
 
 **Major Changes:**
 
 The **big thing in v0.14.1 is the implementation of Blake usage as a hash function from Poseidon**.
 
-Around that, **a new RPC version 1.0.0** will be introduced as well. The **next release candidate (RC1) was also published in the past hour**. If anyone has notes or anything else they'd like to introduce, **it's a great opportunity because we're jumping from 0.9 to 1.0**—please let Eitan know in the coming days. General feedback is more than welcome.
+Around that, **a new RPC version 1.0.0** will be introduced as well. The **next release candidate (RC1) was also published in the past hour**. If anyone has notes or anything else they'd like to introduce, **it's a great opportunity because we're jumping from 0.9 to 1.0**—please let [Eitan](https://github.com/eitanm-starkware) know in the coming days. General feedback is more than welcome.
 
 **Timeline:**
 
@@ -57,9 +57,9 @@ Those are the main things regarding v0.14.1 logistics.
 
 **Pathfinder** (Chris / [Vaclav](https://github.com/vaclav)):
 
-Eitan asked Pathfinder for readiness updates.
+[Eitan](https://github.com/eitanm-starkware) asked Pathfinder for readiness updates.
 
-(Eitan's video froze briefly.)
+([Eitan](https://github.com/eitanm-starkware)'s video froze briefly.)
 
 Chris responded: **they're working on it**. Essentially, they're **just starting work on the Kasm change**.
 
@@ -69,7 +69,7 @@ Vaclav added: they **started on RPC 1.0**—have a 1.0 API which is the same as 
 
 **Recent Release:**
 
-Eitan noted they had a recent release while he was out of office, with a **deploy account simulation fix**. Any words to share?
+[Eitan](https://github.com/eitanm-starkware) noted they had a recent release while he was out of office, with a **deploy account simulation fix**. Any words to share?
 
 Chris confirmed: it was a **bug fix release with three fixes**:
 1. **`starknet_estimateFee`** fix
@@ -82,7 +82,7 @@ Vaclav noted the **fixes are in the release notes** so they should be visible. I
 
 **Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
 
-Eitan asked Juno about v0.14.1 readiness or preparation. He knows release notes just came out, so he's not expecting anything beyond taking that into consideration.
+[Eitan](https://github.com/eitanm-starkware) asked Juno about v0.14.1 readiness or preparation. He knows release notes just came out, so he's not expecting anything beyond taking that into consideration.
 
 Rodrigo confirmed: on their side, they've **already implemented Blake2 cache**—they have to implement it because they're in Go.
 
@@ -98,7 +98,7 @@ The thing they're **worried about is more in syncing**: they posted a question a
 
 They're mostly worried about this—they'll have to be more careful around it.
 
-Eitan acknowledged it's a **good question**. Rodrigo posted it right before the call, so Eitan didn't have time to get the perfect answer. He's **holding back from giving his thoughts for now**.
+[Eitan](https://github.com/eitanm-starkware) acknowledged it's a **good question**. Rodrigo posted it right before the call, so [Eitan](https://github.com/eitanm-starkware) didn't have time to get the perfect answer. He's **holding back from giving his thoughts for now**.
 
 **Recent Updates:**
 
@@ -106,7 +106,7 @@ Juno has some **simple stability improvements** regarding issues—they had the 
 
 Mainly: they already had **WebSocket latest UX improvement** integrated as part of normal HTTP requests, but now they're **adding it to subscription-based requests** too. Users can have all that information. This will be part of the next release, including these bug fixes and other smaller Juno-specific improvements.
 
-Eitan asked if there's anything else. Rodrigo said no, not so far.
+[Eitan](https://github.com/eitanm-starkware) asked if there's anything else. Rodrigo said no, not so far.
 
 **Madara/Karnot** ([Heemank Verma](https://github.com/hemantwasthere)):
 
@@ -118,7 +118,7 @@ One of the agenda items was also the **SNOS integration status**—Heemank confi
 
 **Eitan Moed** (Starkware):
 
-Also, there were some **network stability hiccups over the past two weeks** from Eitan's understanding. Again, he was off the radar. He assumes the teams didn't receive too much update on that unless there's something he doesn't know that reached them.
+Also, there were some **network stability hiccups over the past two weeks** from [Eitan](https://github.com/eitanm-starkware)'s understanding. Again, he was off the radar. He assumes the teams didn't receive too much update on that unless there's something he doesn't know that reached them.
 
 **Quick Summary:**
 
@@ -140,7 +140,7 @@ It took some time to realize this was causing the issue with the committer.
 
 **Mitigation:** **Including better cache functionality for pre-confirmations** so there would be **less overhead on the database** when users choose to query at scale on pre-confirmations.
 
-Those are the two updates in terms of performance and network stability. As far as Eitan's understanding, **since then, knock on wood, they've been stable**.
+Those are the two updates in terms of performance and network stability. As far as [Eitan](https://github.com/eitanm-starkware)'s understanding, **since then, knock on wood, they've been stable**.
 
 ### 4. Consensus Implementation Updates
 
@@ -174,7 +174,7 @@ On that note, is there anything else anyone would like to share? Any other busin
 
 ### 6. Wrap-up
 
-Hearing nothing, Eitan concluded: **that's it for this week**. **Shorter call than usual, but I guess that's also a good thing—means we're well coordinated.**
+Hearing nothing, [Eitan](https://github.com/eitanm-starkware) concluded: **that's it for this week**. **Shorter call than usual, but I guess that's also a good thing—means we're well coordinated.**
 
 The **next call is scheduled for Thursday, November 6 at 11:00 AM UTC**. All parties, all interested parties are encouraged to join. See you guys then.
 
@@ -255,4 +255,4 @@ The **next call is scheduled for Thursday, November 6 at 11:00 AM UTC**. All par
 
 ---
 
-*These notes were compiled from the October 23, 2025 Starknet All Core Devs call moderated by Eitan Moed. For the most accurate information, please refer to the [full recording](https://www.youtube.com/live/BjRMtKVP5Sw).*
+*These notes were compiled by [Aayush Giri](https://github.com/Giri-Aayush) from the October 23, 2025 Starknet All Core Devs call. For the most accurate information, please refer to the [full recording](https://www.youtube.com/live/BjRMtKVP5Sw).*
