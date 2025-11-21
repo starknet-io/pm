@@ -2,7 +2,7 @@
 
 [![Meeting Frequency](https://img.shields.io/badge/Meetings-Bi--weekly-blue)](https://github.com/starknet-io/pm/issues)
 [![Next Meeting](https://img.shields.io/badge/Next%20Meeting-Nov%2020%2C%202025-green)](https://github.com/starknet-io/pm/issues)
-[![YouTube](https://img.shields.io/badge/YouTube-Recordings-red?logo=youtube)](https://www.youtube.com/@starknet_foundation/playlists)
+[![YouTube](https://img.shields.io/badge/YouTube-Recordings-red?logo=youtube)](https://www.youtube.com/playlist?list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa)
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
 
 This repository serves as the central coordination hub for [Starknet](https://www.starknet.io/) protocol development. It provides comprehensive documentation of Starknet All Core Devs meetings, technical discussions, and protocol evolution decisions. Meeting agendas are tracked in the [Issues](https://github.com/starknet-io/pm/issues) tab of this repository, enabling transparent and collaborative planning across the Starknet ecosystem.
