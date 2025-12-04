@@ -30,8 +30,15 @@ Recent calls have focused on:
 <table>
   <tr>
     <td align="center">
+      <b>Call #40</b><br>
+      Nov 20, 2025<br>
+      <a href="https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_040.md">
+        <img src="AllCoreDevs-Full-Nodes-Meetings/images/call_040_attendees.png" width="280"/>
+      </a>
+    </td>
+    <td align="center">
       <b>Call #39</b><br>
-      Nov 6, 2025<br>
+      Nov 06, 2025<br>
       <a href="https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_039.md">
         <img src="AllCoreDevs-Full-Nodes-Meetings/images/call_039_attendees.png" width="280"/>
       </a>
@@ -41,13 +48,6 @@ Recent calls have focused on:
       Oct 23, 2025<br>
       <a href="https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_038.md">
         <img src="AllCoreDevs-Full-Nodes-Meetings/images/call_038_attendees.png" width="280"/>
-      </a>
-    </td>
-    <td align="center">
-      <b>Call #37</b><br>
-      Oct 9, 2025<br>
-      <a href="https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_037.md">
-        <img src="AllCoreDevs-Full-Nodes-Meetings/images/call_037_attendees.png" width="280"/>
       </a>
     </td>
   </tr>
