@@ -40,7 +40,7 @@ Aayush noted they have **five main agenda items** to cover and would keep on sch
 
 Aayush introduced the first agenda item, noting that in Call #39 (November 6), [Eitan Moed](https://github.com/eitanm-starkware) mentioned having timeline clarity by this call. The previous call also flagged potential delay due to starknet.rs SDK transition to SVM. Aayush asked for deployment timeline updates and clarity on this blocker.
 
-**Ohad Barta** (Starkware) provided the update, as Eitan was unavailable.
+**Ohad Barta** (Starkware) provided the update, as [Eitan](https://github.com/eitanm-starkware) was unavailable.
 
 **Testnet and Mainnet Timeline:**
 
@@ -48,7 +48,7 @@ Ohad confirmed that **testnet v0.14.1 deployment happened the previous day** (No
 
 **Testnet Deployment Issues:**
 
-Ohad stated candidly: **"I will say that the testnet upgrade went not as good as we hoped."** As they spoke, **Eitan was in emergency meetings with engineers** to see how they can improve the upgrade process and what additional preparations they want to make so the mainnet upgrade will be smoother.
+Ohad stated candidly: **"I will say that the testnet upgrade went not as good as we hoped."** As they spoke, **[Eitan](https://github.com/eitanm-starkware) was in emergency meetings with engineers** to see how they can improve the upgrade process and what additional preparations they want to make so the mainnet upgrade will be smoother.
 
 Because of these issues, it's **possible that some action items will postpone v0.14.1 by a bit more**. Ohad committed to providing a **final date the following week** (week of November 25).
 
@@ -148,7 +148,7 @@ Aayush thanked Heemank for the update.
 
 ### 3. v0.14.2 Planning and Development Roadmap
 
-Aayush noted that in the last call when he asked about v0.14.2 planning, Eitan specifically mentioned he would have concrete information by this call. He asked Ohad if he had details to share with the group about v0.14.2 planning.
+Aayush noted that in the last call when he asked about v0.14.2 planning, [Eitan](https://github.com/eitanm-starkware) specifically mentioned he would have concrete information by this call. He asked Ohad if he had details to share with the group about v0.14.2 planning.
 
 **Why No Clear v0.14.2 Timeline:**
 
@@ -222,7 +222,7 @@ Aayush thanked everyone for their time and contribution and wished them a great 
 | Decision | Rationale | Impact |
 |----------|-----------|---------|
 | Mainnet v0.14.1 delayed from December 3 to December 10 | Avoid collision with other applicative layer integrations; allow time to address testnet issues | Provides additional week to improve upgrade process and implement safeguards |
-| Ohad to provide final mainnet date by week of November 25 | Testnet experienced 30 minutes of downtime due to backward compatibility issues; Eitan in emergency meetings to improve upgrade process | Timeline may shift further based on upgrade process improvements |
+| Ohad to provide final mainnet date by week of November 25 | Testnet experienced 30 minutes of downtime due to backward compatibility issues; [Eitan](https://github.com/eitanm-starkware) in emergency meetings to improve upgrade process | Timeline may shift further based on upgrade process improvements |
 | Pathfinder v0.21.1 hotfix released November 20 | Execution layer bug in v0.21.0 affecting block traces for declare transactions and transaction simulation | RPC providers can upgrade immediately to resolve execution issues |
 | End-to-end testing improvements to be implemented across ecosystem | L2 gas price bugs surfaced in testnet that were present in integration but not caught by testing | Prevent future production issues; better validation before testnet deployment |
 | Most upcoming work won't require Starknet version bumps | Many improvements are internal (stress testing framework, mainnet traffic mimic platform) or transparent gateway changes (throughput optimization) | Faster delivery of improvements without coordination overhead of version upgrades |
