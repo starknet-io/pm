@@ -3,7 +3,7 @@
 
 - **Date & Time:** Thursday, December 4, 2025, 12:00-12:30 PM UTC
 - **Duration:** 30 minutes
-- **YouTube:** [TBD]
+- **YouTube:** https://www.youtube.com/live/czfsMHOCviI
 - **Agenda:** https://github.com/starknet-io/pm/issues/31
 - **Moderator:** [Aayush Giri](https://github.com/Giri-Aayush)
 
