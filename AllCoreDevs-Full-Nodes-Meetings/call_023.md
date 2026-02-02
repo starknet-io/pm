@@ -23,7 +23,7 @@ Regarding provider migration, Leonardo noted that most providers had been respon
 
 ### 2. Client Team Updates Post-Upgrade
 
-[Rodrigo Pino](https://github.com/rodiazet) shared Juno's experience:
+[Rodrigo Pino](https://github.com/rodrodros) shared Juno's experience:
 - RPC functionality is stable with no error reports from users
 - The team encountered issues with nodes appearing to be stuck when processing large blocks due to a default timeout of 5 seconds
 - They received many user complaints about this issue

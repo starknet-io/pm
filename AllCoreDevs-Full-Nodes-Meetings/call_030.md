@@ -55,7 +55,7 @@ The team continues working on WebSocket-related functionality, which Krisztian n
 
 When asked about overall testnet readiness, Krisztian confirmed that testnet should be fine. The only complication with this release involves a fairly large database migration taking roughly one hour on mainnet. On testnet the migration completes in just a few minutes, so it should not present issues. For mainnet, the migration constitutes considerably larger downtime during node upgrades. Therefore, the team is currently not recommending mainnet users upgrade immediately. As they approach the mainnet Starknet upgrade date, they will release updated snapshots that can be used instead of running the migration manually.
 
-**Juno** (Rian Hughes, reporting for [Rodrigo Pino](https://github.com/rodiazet)):
+**Juno** (Rian Hughes, reporting for [Rodrigo Pino](https://github.com/rodrodros)):
 
 Rian provided updates on behalf of Rodrigo, who could not attend. For Tendermint implementation, the team basically has the MVP ready with one or two small issues currently being worked on. Realistically, Rian expects the MVP will be ready mid-to-late next week, and the team is quite confident in hitting that timeline.
 
@@ -83,8 +83,8 @@ Trantorian noted that the agenda mentioned new chain features. These remain the 
 **Action Items:**
 - [Krisztian Kovacs](https://github.com/kkovaacs): Release updated mainnet snapshots before mainnet upgrade (Target: Before July 28, 2025)
 - [Krisztian Kovacs](https://github.com/kkovaacs): Complete subscription and pre-confirmed block implementation (Ongoing)
-- Rian Hughes / [Rodrigo Pino](https://github.com/rodiazet): Complete Tendermint MVP (Target: Mid-to-late next week, ~July 10-11, 2025)
-- Rian Hughes / [Rodrigo Pino](https://github.com/rodiazet): Attend Juno-Malachite interop meeting (Target: July 7, 2025)
+- Rian Hughes / [Rodrigo Pino](https://github.com/rodrodros): Complete Tendermint MVP (Target: Mid-to-late next week, ~July 10-11, 2025)
+- Rian Hughes / [Rodrigo Pino](https://github.com/rodrodros): Attend Juno-Malachite interop meeting (Target: July 7, 2025)
 - [Trantorian](https://github.com/Trantorian1): Begin v0.14.0 sync support implementation (Target: Week of July 7, 2025)
 
 **Blockers Identified:**
@@ -107,7 +107,7 @@ Rian responded that beyond the Monday meeting he mentioned earlier, there was no
 - Consensus testing preparations on track despite vacation delays
 
 **Action Items:**
-- [Adi Seredinschi](https://github.com/adizere) & Rian Hughes / [Rodrigo Pino](https://github.com/rodiazet): Conduct Juno-Malachite interoperability planning meeting (Target: July 7, 2025)
+- [Adi Seredinschi](https://github.com/adizere) & Rian Hughes / [Rodrigo Pino](https://github.com/rodrodros): Conduct Juno-Malachite interoperability planning meeting (Target: July 7, 2025)
 
 ---
 

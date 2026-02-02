@@ -19,7 +19,7 @@ This pre-v0.14.1 deployment meeting occurred with **Aayush back as moderator** (
 
 - **Meeting time permanently shifted from 11:00 AM to 12:00 PM UTC** (November 2025 through March 2026)
 - **v0.14.1 deployment potentially delayed up to 1 week** due to starknet.rs SDK ownership transfer to SVM; integration on track but testnet/mainnet dates uncertain
-- **No RPC 1.0 RC1 feedback = good news**; indicates smooth adoption with no pushback on new calls
+- **No RPC v0.10 RC1 feedback = good news**; indicates smooth adoption with no pushback on new calls
 - **Blake2 hash computation computationally expensive**; Starkware coordinating with Pathfinder/Juno to **precompute hashes ahead of time** to prevent RPC call delays (e.g., `starknet_simulateTransaction`)
 - **Pathfinder merged main v0.14.1 PR**; integration network syncing successful; implementing Blake2 hash precomputation for blockifier; release targeting early next week
 - Pathfinder fixed preconfirmed state execution bug (missing state updates in certain cases)
@@ -66,9 +66,9 @@ One of the **challenges that has risen over the past week or so**: the **starkne
 
 Therefore, **[Eitan](https://github.com/eitanm-starkware) is not able to confirm that they will release testnet and mainnet v0.14.1 as scheduled**. There **might be a pushback by a couple of days**. That's what they're looking at in regards to timeline.
 
-**RPC 1.0 Feedback:**
+**RPC v0.10 Feedback:**
 
-In terms of the RPC: they **haven't gotten too much feedback from RPC 1.0.0**. In [Eitan](https://github.com/eitanm-starkware)'s interpretation, **"no feedback is good feedback"**—it means people have been able to **work with it well** and there's **no pushback on any of the new calls** that were added to the RPC.
+In terms of the RPC: they **haven't gotten too much feedback from RPC v0.10.0**. In [Eitan](https://github.com/eitanm-starkware)'s interpretation, **"no feedback is good feedback"**—it means people have been able to **work with it well** and there's **no pushback on any of the new calls** that were added to the RPC.
 
 **Poseidon to Blake2 Migration Updates:**
 
@@ -121,9 +121,9 @@ Up to that point, they **thought they could avoid recomputing these class hashes
 
 So they're just working on that. They **do have a plan** for it. They hope to be able to **release Pathfinder with the Kasm/Blake2 hash precomputation in place hopefully by early next week** or something like that.
 
-**RPC 1.0 Implementation:**
+**RPC v0.10 Implementation:**
 
-They also **have a complete implementation of JSON-RPC 1.0 RC1**—the latest spec that has been published.
+They also **have a complete implementation of JSON-RPC v0.10 RC1**—the latest spec that has been published.
 
 **Recent Bug Fixes:**
 
@@ -137,7 +137,7 @@ Krisztian confirmed: **Absolutely. They're continuously working on their consens
 
 Aayush thanked Krisztian.
 
-**Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
+**Juno** ([Rodrigo Pino](https://github.com/rodrodros)):
 
 Aayush invited Rodrigo to provide Juno's update on:
 - v0.14.1 implementation progression and status
@@ -152,7 +152,7 @@ Rodrigo confirmed: **Yeah, actually they talked after the call.** The clarificat
 
 **v0.14.1 Implementation:**
 
-On Starknet v0.14.1: **they also have a branch which is syncing with v0.14.1**. They **haven't fully implemented RPC 1.0 yet**. They still have **some questions**—it's **not very clear to them**:
+On Starknet v0.14.1: **they also have a branch which is syncing with v0.14.1**. They **haven't fully implemented RPC v0.10 yet**. They still have **some questions**—it's **not very clear to them**:
 
 **When should the migrated class be part of the state diff, and when shouldn't it be?** Because you have to—the blockifier doesn't give them, for example. So **when you trace an execution, should they include them or shouldn't they?** If they include them, then they need to store the change in the blockchain. If they don't include them, they don't need to.
 
@@ -304,7 +304,7 @@ Thank you for your time and contribution. Have a great rest of your day, and the
 | Continue Pathfinder consensus implementation development | Equilibrium (Krisztian) | Ongoing | In Progress |
 | Clarify migrated class state diff questions on Slack channel | Starkware ([Eitan](https://github.com/eitanm-starkware)) + Juno (Rodrigo) | Ongoing | In Progress |
 | Release Juno with syncing optimizations and bug fixes | Juno (Rodrigo) | November 7, 2025 | In Progress |
-| Complete Juno RPC 1.0 implementation | Juno (Rodrigo) | Before v0.14.1 mainnet | In Progress |
+| Complete Juno RPC v0.10 implementation | Juno (Rodrigo) | Before v0.14.1 mainnet | In Progress |
 | Release Juno v0.14.1 | Juno (Rodrigo) | ~Nov 17-21, 2025 | Planned |
 | Release Madara v0.14.0 and SNOS v0.14.0 from pre-releases | Karnot (Heemank) | Soon | In Progress |
 | Evaluate Madara v0.14.1 work and timeline | Karnot (Heemank) | After v0.14.0 release | Not Started |
@@ -331,14 +331,14 @@ Thank you for your time and contribution. Have a great rest of your day, and the
 
 ## Glossary
 
-- **v0.14.1**: Starknet upgrade introducing Blake2 hash function and RPC 1.0; deployment delayed pending starknet.rs onboarding
+- **v0.14.1**: Starknet upgrade introducing Blake2 hash function and RPC v0.10; deployment delayed pending starknet.rs onboarding
 - **v0.14.2**: Future Starknet upgrade; planning discussions ongoing but nothing concrete yet
 - **Blake2**: Cryptographic hash function replacing Poseidon in v0.14.1
 - **Poseidon**: Previous hash function being replaced by Blake2 in v0.14.1
 - **Starknet.rs**: Rust SDK for Starknet development; ownership transferred to SVM
 - **SVM**: Organization taking over starknet.rs SDK maintenance; onboarding process impacting v0.14.1 timeline
 - **SDK (Software Development Kit)**: Libraries and tools for developers building on Starknet
-- **RPC 1.0**: First major version of JSON-RPC API specification; RC1 published
+- **RPC v0.10**: JSON-RPC specification version 0.10; RC1 published
 - **RC (Release Candidate)**: Pre-release version for testing before final release
 - **`starknet_simulateTransaction`**: RPC call for simulating transaction execution without submitting to network
 - **Hash precomputation**: Calculating Blake2 hashes ahead of time to avoid real-time computation delays

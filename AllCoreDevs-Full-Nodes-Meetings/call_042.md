@@ -93,7 +93,7 @@ Krisztian reported that Pathfinder v0.21.3 remains their latest release. They ar
 
 The team is currently working on extending metrics and adding smaller improvements. There are no blocking or showstopper issues with Starknet v0.14.1 and the latest Pathfinder release. Krisztian expressed hope they will not need to cut another release before the holidays.
 
-#### **Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
+#### **Juno** ([Rodrigo Pino](https://github.com/rodrodros)):
 
 Rodrigo confirmed Juno released in time for the mainnet deployment. They had a few small RPC issues where results were not fully consistent, which were fixed in the release. Additionally, a small issue with the Paradex network was resolved.
 
@@ -178,7 +178,7 @@ Aayush wished everyone happy holidays, a wonderful break, and a great start to 2
 | Starkware | Publish 2026 roadmap focused on decentralized validation | Call #43 (mid-January 2026) | Pending |
 | [Eitan Moed](https://github.com/eitanm-starkware) | Finalize 2026 priorities and roadmap details | Mid-January 2026 | In Progress |
 | [Krisztian Kovacs](https://github.com/kkovaacs) | Continue monitoring Pathfinder v0.21.3 post-deployment | Ongoing | In Progress |
-| [Rodrigo Pino](https://github.com/rodiazet) | Continue Juno optimization, consensus, and DB improvements | Ongoing | In Progress |
+| [Rodrigo Pino](https://github.com/rodrodros) | Continue Juno optimization, consensus, and DB improvements | Ongoing | In Progress |
 | [Heemank Verma](https://github.com/heemankv) | Release Madara v0.14.1 public version | End of week (before Dec 25, 2025) | In Progress |
 | [Heemank Verma](https://github.com/heemankv) | Release orchestrator v0.14.1 (pending Herodotus aggregator) | End of week (before Dec 25, 2025) | Pending |
 | Herodotus team | Deploy aggregator for orchestrator testing | December 18, 2025 | In Progress |

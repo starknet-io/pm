@@ -74,7 +74,7 @@ Chris noted he's been working on consensus-related work, so Vaclav is more up to
 
 Regarding the validator attestation package upgrade mentioned in Call #33, Vaclav indicated it's pretty much the same from the last call because Krisztian has been working on the package, so not much progress there.
 
-**Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
+**Juno** ([Rodrigo Pino](https://github.com/rodrodros)):
 
 Aayush recalled that in Call #33, the team was planning to release v0.15.2 that day with full RPC compliance. He asked how that release went and whether there have been any issues or feedback. He also asked about Tendermint optimization work, particularly around network partitioning handling.
 

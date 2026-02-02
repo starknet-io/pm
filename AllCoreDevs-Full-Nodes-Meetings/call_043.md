@@ -138,7 +138,7 @@ Propeller has been reviewed by **Informal Systems** from a theoretical perspecti
 
 Discussion ensued about cross-language support:
 
-[Rodrigo Pino](https://github.com/rodiazet) raised concerns about Rust-centricity, noting Juno cannot implement in Rust. He requested:
+[Rodrigo Pino](https://github.com/rodrodros) raised concerns about Rust-centricity, noting Juno cannot implement in Rust. He requested:
 - Published specifications
 - Potentially a mono-repo similar to libp2p with specs that any language can implement
 
@@ -177,7 +177,7 @@ After Starkware enabled HTTP response compression on mainnet, Pathfinder nodes h
 - Goal: provide a package for running validator nodes in the distributed consensus environment
 - Secondary: keeping up with 0.14.x releases
 
-#### **Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
+#### **Juno** ([Rodrigo Pino](https://github.com/rodrodros)):
 
 **January Focus - Database Size Reduction:**
 - Targeting **~40% reduction** in database size
@@ -273,8 +273,8 @@ Aayush closed the call thanking everyone for joining the first call of 2026. He 
 | [Andrew](https://github.com/andrew-starkware) | Coordinate with client teams on Propeller code access | Soon | Open |
 | [Andrew](https://github.com/andrew-starkware) | Consider publishing Propeller to libp2p | TBD | Under Consideration |
 | [Krisztian Kovacs](https://github.com/kkovaacs) | Continue consensus implementation for distributed validation | Q1 2026 | In Progress |
-| [Rodrigo Pino](https://github.com/rodiazet) | Release Juno with ~40% database size reduction | End of January 2026 | In Progress |
-| [Rodrigo Pino](https://github.com/rodiazet) | Implement improved trie for efficient state storage | Feb/March 2026 | Planned |
+| [Rodrigo Pino](https://github.com/rodrodros) | Release Juno with ~40% database size reduction | End of January 2026 | In Progress |
+| [Rodrigo Pino](https://github.com/rodrodros) | Implement improved trie for efficient state storage | Feb/March 2026 | Planned |
 | Juno team | Plan Propeller integration | Q1 2026 | Planned |
 | [Heemank Verma](https://github.com/heemankv) | Get SNOS v0.14.1 full release (pending Dojo review) | Soon | Pending |
 | [Heemank Verma](https://github.com/heemankv) | Get Madara full node to tip of Sepolia/mainnet | Q1 2026 | In Progress |

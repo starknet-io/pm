@@ -80,7 +80,7 @@ Chris can link the issues and PRs—would take a few minutes to explain everythi
 
 Vaclav noted the **fixes are in the release notes** so they should be visible. If anyone wants more details, they have to jump into the code.
 
-**Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
+**Juno** ([Rodrigo Pino](https://github.com/rodrodros)):
 
 [Eitan](https://github.com/eitanm-starkware) asked Juno about v0.14.1 readiness or preparation. He knows release notes just came out, so he's not expecting anything beyond taking that into consideration.
 

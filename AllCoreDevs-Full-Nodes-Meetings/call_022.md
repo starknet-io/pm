@@ -30,7 +30,7 @@ Aayush shared Leonardo's update on the v0.13.5 upgrade:
 - Clarified a Gateway bug where the estimation was correct but the Gateway overestimated resources needed to execute transactions, particularly affecting simple token transfers
 - The issue has been resolved on the Gateway side
 
-[Rodrigo Pino](https://github.com/rodiazet) provided an update on Juno:
+[Rodrigo Pino](https://github.com/rodrodros) provided an update on Juno:
 - Released version 0.14.0 with support for Starknet v0.13.5
 - Implemented and tested all WebSocket functionality
 - Currently investigating a non-deterministic bug at the interface between Rust and Go components

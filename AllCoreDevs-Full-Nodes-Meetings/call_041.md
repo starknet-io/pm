@@ -134,7 +134,7 @@ All in all, **it's not a required upgrade—not even for the mainnet upgrade nex
 
 Aayush thanked Krisztian for the update.
 
-#### **Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
+#### **Juno** ([Rodrigo Pino](https://github.com/rodrodros)):
 
 Aayush noted they didn't hear from Rodrigo in the last call—he believed Rodrigo was at Devcon/EthCC at that time. He asked for a comprehensive update on where Juno stands with v0.14.1 and readiness for the December 10 mainnet deployment, plus RPC v0.10 implementation progress and any recent releases or improvements since early November.
 
@@ -293,7 +293,7 @@ Aayush thanked everyone for their time and contribution, wished them a great res
 | Starkware | Deploy mainnet v0.14.1 | Tuesday, December 10, 2025 | Scheduled |
 | [Krisztian Kovacs](https://github.com/kkovaacs) | Monitor Pathfinder v0.21.3 in production ahead of mainnet upgrade | December 4-10, 2025 | In Progress |
 | Pathfinder team | Monitor RPC v0.10 adoption and issues as API libraries roll out support | Ongoing | In Progress |
-| [Rodrigo Pino](https://github.com/rodiazet) | Release Juno with Starknet Go inconsistency fixes | Soon | In Progress |
+| [Rodrigo Pino](https://github.com/rodrodros) | Release Juno with Starknet Go inconsistency fixes | Soon | In Progress |
 | Juno team | Ensure all Juno node operators upgrade to latest version before December 10 | Before December 10, 2025 | In Progress |
 | [Heemank Verma](https://github.com/heemankv) | Complete v0.14.1 compatibility for Madara and SNOS | Call #42 (December 18, 2025) | In Progress |
 | [Heemank Verma](https://github.com/heemankv) | Continue regression testing on 6K-7K blocks for SNOS | Ongoing | In Progress |

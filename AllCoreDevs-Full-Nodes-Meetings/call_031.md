@@ -38,7 +38,7 @@ One surprising breaking change has been causing problems for node operators: on 
 
 Regarding JSON-RPC 0.9 completion and production readiness, Krisztian explained the team is still discussing how to handle pre-confirmed data for JSON-RPC subscription methods. Other than that, pre-confirmed blocks should not present problems—the rest of the JSON-RPC API methods except subscription methods should work fine. Discussion remains underway on how exactly they would like to handle pre-confirmed data in general for subscriptions. This particular area has not been implemented yet for Pathfinder. The team will handle this with priority in the coming weeks once they agree on a plan for handling this in the JSON-RPC subscription API.
 
-**Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
+**Juno** ([Rodrigo Pino](https://github.com/rodrodros)):
 
 Rodrigo began by addressing the mid-to-late July Tendermint target. He clarified he would not call it an MVP because the implementation goes beyond that scope. The team is in good shape with internal testing based on Kurtosis, a tool for testing sequencers. Juno implemented their own testing framework and established four Juno nodes that start transactions, reach consensus, and produce blocks—representing fairly complete functionality.
 
@@ -70,8 +70,8 @@ For Blockifier and Cairo Native integration, this work has been merged into Mada
 **Action Items:**
 - [Krisztian Kovacs](https://github.com/kkovaacs): Finalize pre-confirmed data handling approach for JSON-RPC subscriptions (Target: Coming weeks)
 - [Shahak Shama](https://github.com/ShahakShama): Release P2P v0.2.0 specification with consensus support (Target: Soon)
-- [Rodrigo Pino](https://github.com/rodiazet): Release Juno v0.15 stable (Target: Late July/early August 2025)
-- [Rodrigo Pino](https://github.com/rodiazet): Coordinate extended Juno-Malachite interop meeting with all stakeholders (Target: Post-Call #31)
+- [Rodrigo Pino](https://github.com/rodrodros): Release Juno v0.15 stable (Target: Late July/early August 2025)
+- [Rodrigo Pino](https://github.com/rodrodros): Coordinate extended Juno-Malachite interop meeting with all stakeholders (Target: Post-Call #31)
 - [Trantorian](https://github.com/Trantorian1): Complete v0.14.0 testnet sync support (Target: Post-database updates)
 
 **Blockers Identified:**

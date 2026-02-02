@@ -20,7 +20,7 @@ This meeting returned to the regular 30-minute format and covered network stabil
 - **New RPC crates published (dev versions)** - Blockifier and Starknet API crates released for testing; JSON RPC 0.10.1 releasing before v0.14.2 compatibility
 - **Pathfinder pre-release coming** - Will include client-side proofs support for testing; database migration required
 - **Juno DB reduction release imminent** - ~700 GB → ~360 GB (nearly 50% reduction); opt-in in v0.15.18, default in v0.16
-- **Madara synced Sepolia to tip** - Cairo Native showing 2-3x performance gains; working on RPC 0.10.1 with starknet-rust contributions
+- **Madara synced Sepolia to tip** - Cairo Native showing 2-3x performance gains; working on RPC 0.10.1 with starknet-rs contributions
 - **Malachite team absent third consecutive call** - Aayush to make announcement next call
 
 ## Meeting Notes
@@ -88,7 +88,7 @@ The team is improving validation mode by switching to **concurrent execution** f
 
 When asked about feedback on Andrew's Propeller presentation, Krisztian noted they have not deeply reviewed it yet. They are working on understanding both the code and the concept, including how it differs from and is similar to **Solana's Turbine**.
 
-#### **Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
+#### **Juno** ([Rodrigo Pino](https://github.com/rodrodros)):
 
 **Database Reduction Release:**
 
@@ -146,7 +146,7 @@ Detailed report coming, but preliminary data shows **2-3x gains over Cairo VM**.
 
 **RPC 0.10.1 Progress:**
 
-Working on RPC 0.10.1 spec. The major blocker was starknet-rust, so the team is now **contributing to starknet-rust** to ensure 0.10.1 compatibility. Initial PRs have been submitted. Madara with 0.10.1 support expected by end of week.
+Working on RPC 0.10.1 spec. The major blocker was starknet-rs, so the team is now **contributing to starknet-rs** to ensure 0.10.1 compatibility. Initial PRs have been submitted. Madara with 0.10.1 support expected by end of week.
 
 **Acknowledgment:**
 
@@ -216,9 +216,9 @@ Aayush closed the call thanking everyone for joining and sharing updates.
 | [Andrew](https://github.com/andrew-starkware) | Return for Propeller implementation discussion | Call #45 (if demand) | Pending |
 | [Krisztian Kovacs](https://github.com/kkovaacs) | Release Pathfinder pre-release with client-side proofs | Soon | In Progress |
 | Pathfinder team | Continue Propeller review and comparison with Turbine | Ongoing | In Progress |
-| [Rodrigo Pino](https://github.com/rodiazet) | Release Juno v0.15.18 with database reduction (opt-in) | Today/Tomorrow | In Progress |
-| [Rodrigo Pino](https://github.com/rodiazet) | Publish documentation for new database parameters | With release | In Progress |
-| [Rodrigo Pino](https://github.com/rodiazet) | Release Juno v0.16 with default migration | Mid-February 2026 | Planned |
+| [Rodrigo Pino](https://github.com/rodrodros) | Release Juno v0.15.18 with database reduction (opt-in) | Today/Tomorrow | In Progress |
+| [Rodrigo Pino](https://github.com/rodrodros) | Publish documentation for new database parameters | With release | In Progress |
+| [Rodrigo Pino](https://github.com/rodrodros) | Release Juno v0.16 with default migration | Mid-February 2026 | Planned |
 | Juno team | Begin Propeller and consensus implementation focus | February 2026 | Planned |
 | Karnot team | Get SNOS v0.14.1 merged (pending Dojo review) | TBD | Blocked |
 | Karnot team | Resolve mainnet class hash mismatch | This week | In Progress |
@@ -259,7 +259,7 @@ Aayush closed the call thanking everyone for joining and sharing updates.
 - **Turbine**: Solana's block propagation protocol; being compared to Propeller
 - **Database Migration**: Process of converting database format; required for Pathfinder pre-release and Juno update
 - **Opt-In Migration**: Optional database upgrade; user chooses when to apply
-- **starknet-rust**: Rust SDK for Starknet; Karnot contributing for 0.10.1 compatibility
+- **starknet-rs**: Rust SDK for Starknet; Karnot contributing for 0.10.1 compatibility
 - **Merkleization**: Process of building Merkle trees for state; major performance bottleneck (60-80% of time)
 - **Trie**: Data structure for efficient state storage; Juno working on improved version
 - **SNOS (Starknet OS)**: Starknet operating system; maintained by Karnot

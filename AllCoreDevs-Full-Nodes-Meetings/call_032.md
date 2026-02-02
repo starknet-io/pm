@@ -51,7 +51,7 @@ The team has also accumulated several additional feature requests from Leonardo 
 
 Importantly, the team has received **no issues about sync problems**. They believe syncing is functioning correctly on Starknet v0.14.0—it's mostly JSON-RPC deficiencies holding them back from full production readiness.
 
-**Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
+**Juno** ([Rodrigo Pino](https://github.com/rodrodros)):
 
 Rodrigo reported that Juno made a stable release last week at the beginning of the week: **v0.15.0**. However, there were some issues specifically on mainnet starting with v0.13, related to not assigning a number to pending blocks. This was causing problems with some attestations. The issue has been fixed in **Juno v0.15.1**.
 

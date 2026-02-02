@@ -54,11 +54,11 @@ Regarding mainnet timeline confidence, Leonardo acknowledged the complexity of t
 
 Aayush reported that [Natan Granit](https://github.com/natangranit) could not attend the call but provided comprehensive launch statistics. The June 17th upgrade proceeded smoothly with 10 decentralized applications supporting the transition. The network achieved 53 active validators covering the majority of staked tokens, with participation trackable through Voyager and Endure explorers. The team continues working on Binance integration and reaching out to long-tail validators to expand participation.
 
-Natan expressed special gratitude to [Krisztian Kovacs](https://github.com/kkovaacs) and [Rodrigo Pino](https://github.com/rodiazet) for their personal support during the transition. He also identified a need for documentation improvements in the Starkware validator guide, particularly in the attestation section.
+Natan expressed special gratitude to [Krisztian Kovacs](https://github.com/kkovaacs) and [Rodrigo Pino](https://github.com/rodrodros) for their personal support during the transition. He also identified a need for documentation improvements in the Starkware validator guide, particularly in the attestation section.
 
 Aayush invited Krisztian and Rodrigo to discuss common issues and troubleshooting experiences during the launch.
 
-[Rodrigo Pino](https://github.com/rodiazet) identified the primary issue encountered: validators using two-factor authentication on their accounts experienced complications when validating and performing attestation transactions. He noted that some validators had valid private keys but incorrect operational addresses configured. Overall, Rodrigo characterized the launch as proceeding mostly smoothly.
+[Rodrigo Pino](https://github.com/rodrodros) identified the primary issue encountered: validators using two-factor authentication on their accounts experienced complications when validating and performing attestation transactions. He noted that some validators had valid private keys but incorrect operational addresses configured. Overall, Rodrigo characterized the launch as proceeding mostly smoothly.
 
 [Krisztian Kovacs](https://github.com/kkovaacs) reported similar experiences, noting most issues stemmed from misconfiguration rather than fundamental technical problems. Common misconfigurations included using incorrect private keys, employing outdated Braavos accounts fundamentally incompatible with JSON-RPC 0.8, enabling two-factor authentication, or activating various security features in account contracts used for operational accounts. These account contract features should not have been enabled for validator operational accounts.
 
@@ -88,7 +88,7 @@ For Starknet v0.14.0 support including JSON-RPC 0.9 and new features like pre-co
 
 For pruned mode implementation, Pathfinder successfully tested syncing mainnet using a configuration retaining only the last 2,000 blocks. Results proved promising, with the complete database after an up-to-date mainnet sync (as of the week of June 12th) consuming approximately 50 GB of storage—significantly less data than a full state database. This feature will be rolled out as experimental in the next Pathfinder release, though not yet recommended for production use. No showstopper problems are currently known.
 
-**Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
+**Juno** ([Rodrigo Pino](https://github.com/rodrodros)):
 
 Rodrigo reported that v0.14.0 development continues with the team completing implementation of RPC 0.9. A parallel branch exists for this work with experimental releases intended strictly for internal use, not recommended for external adoption. The team is testing these builds internally while implementing pre-confirmed blocks and related features.
 
@@ -114,7 +114,7 @@ When asked about Cairo Native dependencies and potential blockers, Trantorian cl
 **Action Items:**
 - [Krisztian Kovacs](https://github.com/kkovaacs): Investigate reported attestation transaction submission failures (Ongoing)
 - [Krisztian Kovacs](https://github.com/kkovaacs): Complete RPC 0.9 implementation prioritizing specification differences (Target: Post-RC2 release)
-- [Rodrigo Pino](https://github.com/rodiazet): Complete Tendermint MVP (Target: June 30 - July 7, 2025)
+- [Rodrigo Pino](https://github.com/rodrodros): Complete Tendermint MVP (Target: June 30 - July 7, 2025)
 - [Trantorian](https://github.com/Trantorian1): Merge RPC 0.8.1 method implementations (Target: June 20-23, 2025)
 - [Trantorian](https://github.com/Trantorian1): Begin new transaction status and pre-confirmed block sync implementation (Target: Week of June 23, 2025)
 - Sharpa (Kasar Labs): Resolve Blockifier v0.14.0 Cairo Native integration issues (Ongoing)
@@ -133,7 +133,7 @@ From an engineering perspective, the Malachite team is preparing to release v0.3
 
 Aayush asked Rodrigo to confirm the early July timeline for Juno-Malachite interoperability testing and coordinate any necessary preparation steps.
 
-[Rodrigo Pino](https://github.com/rodiazet) confirmed the testing approach will proceed in phases. First, Juno must achieve consensus with itself under internal testing conditions. Simultaneously, the team will begin the integration process with Malachite to understand how to integrate into their testing framework. Rodrigo estimated preliminary results would be available in the second week of July.
+[Rodrigo Pino](https://github.com/rodrodros) confirmed the testing approach will proceed in phases. First, Juno must achieve consensus with itself under internal testing conditions. Simultaneously, the team will begin the integration process with Malachite to understand how to integrate into their testing framework. Rodrigo estimated preliminary results would be available in the second week of July.
 
 **Key Discussion Points:**
 - Malachite interoperability tests completed per Call #28
@@ -143,9 +143,9 @@ Aayush asked Rodrigo to confirm the early July timeline for Juno-Malachite inter
 
 **Action Items:**
 - [Adi Seredinschi](https://github.com/adizere): Release Malachite v0.3.0 (Target: Late June 2025)
-- [Rodrigo Pino](https://github.com/rodiazet): Complete internal Juno consensus testing (Target: End of June 2025)
-- [Rodrigo Pino](https://github.com/rodiazet) & [Adi Seredinschi](https://github.com/adizere): Begin Juno-Malachite interoperability testing (Target: Early July 2025)
-- [Rodrigo Pino](https://github.com/rodiazet) & [Adi Seredinschi](https://github.com/adizere): Produce preliminary interoperability test results (Target: Second week of July 2025)
+- [Rodrigo Pino](https://github.com/rodrodros): Complete internal Juno consensus testing (Target: End of June 2025)
+- [Rodrigo Pino](https://github.com/rodrodros) & [Adi Seredinschi](https://github.com/adizere): Begin Juno-Malachite interoperability testing (Target: Early July 2025)
+- [Rodrigo Pino](https://github.com/rodrodros) & [Adi Seredinschi](https://github.com/adizere): Produce preliminary interoperability test results (Target: Second week of July 2025)
 
 ---
 

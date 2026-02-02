@@ -125,7 +125,7 @@ This was probably the biggest issue they've seen. Now they have a good understan
 
 **Otherwise, it has been going fairly smoothly.**
 
-**Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
+**Juno** ([Rodrigo Pino](https://github.com/rodrodros)):
 
 Aayush recalled Rodrigo mentioned last time they were working on improving the reorg detection mechanism and planned to deploy shortly after the last call. He asked how that reorg detection improvement went, what the results were after testing, whether they're seeing better performance in handling chain reorganizations and current issues. He also asked about the sync mechanism optimization work.
 

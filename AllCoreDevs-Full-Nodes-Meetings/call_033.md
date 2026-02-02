@@ -67,7 +67,7 @@ When asked about default configuration changes requested by Leonardo, Krisztian 
 
 There was discussion about whether having this default is a good thing or not. It's probably not ideal, but changing it would be another seriously breaking change for some users. The team has kept it for now and will probably need to coordinate with other node teams on how and when to remove this default route.
 
-**Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
+**Juno** ([Rodrigo Pino](https://github.com/rodrodros)):
 
 Rodrigo reported that Juno v0.15.1 has no major issues. Nonetheless, the team will release **Juno v0.15.2 today** (August 14th), which will have **full RPC 0.9 support**.
 

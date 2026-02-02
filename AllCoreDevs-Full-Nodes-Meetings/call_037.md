@@ -21,7 +21,7 @@ This stability milestone meeting occurred 38 days after the September 1st mainne
 - v0.14.2 will include robust stress testing to prevent committer falling >10 blocks behind block production
 - Continuous stability improvements: more accurate alerts, improved Grafana dashboards for faster investigation
 - **L1 handler transaction resilience improved**: nodes will offer L1 handlers every few blocks instead of every block to handle flaky L1 providers
-- **v0.14.1 planned for late November** with SNIP-34 and RPC 1.0 RC; prioritizing stability over new versions
+- **v0.14.1 planned for late November** with SNIP-34 and RPC v0.10 RC; prioritizing stability over new versions
 - v0.14.1 integration network deployment: end of October/early November; 2-week integration + 2-week testnet periods
 - Pathfinder making progress on consensus implementation; integration testing with Apollo for P2P communication validation
 - Juno releasing next week with bug fixes and **Pprof support in RPC** for performance profiling
@@ -72,7 +72,7 @@ Ohad asked if anyone has questions around this update.
 
 **v0.14.1 Timeline and Scope:**
 
-Ohad added: **v0.14.1 is also planned** obviously between now and v0.14.2. It will include mostly **SNIP-34** that he released kind of late, just so the version will match the SNIP. It will **introduce RPC 1.0**, which still has its first release candidate published, but they're **still considering a new release candidate for it**.
+Ohad added: **v0.14.1 is also planned** obviously between now and v0.14.2. It will include mostly **SNIP-34** that he released kind of late, just so the version will match the SNIP. It will **introduce RPC v0.10**, which still has its first release candidate published, but they're **still considering a new release candidate for it**.
 
 He expects it to **hit mainnet at end of November, give or take**. Starkware is currently **prioritizing robustness and stability improvements over new versions**, which is why it was delayed a bit.
 
@@ -108,7 +108,7 @@ That's pretty much it for Pathfinder.
 
 Ohad asked for any questions; hearing none, he moved to Juno.
 
-**Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
+**Juno** ([Rodrigo Pino](https://github.com/rodrodros)):
 
 **Release Status:**
 
@@ -197,7 +197,7 @@ Hearing none, Ohad thanked everyone: **"See you in the next call in two weeks at
 | Implement L1 handler transaction batching (every few blocks) | Starkware (Ohad) | Next few months | Planned |
 | Deploy v0.14.1 to integration network | Starkware (Ohad) | End Oct/Early Nov 2025 | Planned |
 | Deploy v0.14.1 to testnet (2-week period) | Starkware (Ohad) | Mid-November 2025 | Planned |
-| Deploy v0.14.1 to mainnet with SNIP-34 and RPC 1.0 | Starkware (Ohad) | End of November 2025 | Planned |
+| Deploy v0.14.1 to mainnet with SNIP-34 and RPC v0.10 | Starkware (Ohad) | End of November 2025 | Planned |
 | Release Pathfinder minor version with accumulated bug fixes | Equilibrium (Krisztian) | Week of October 14, 2025 | In Progress |
 | Continue consensus implementation development and issue resolution | Equilibrium (Krisztian) | Ongoing | In Progress |
 | Complete Pathfinder/Apollo consensus P2P integration testing | Equilibrium (Krisztian) | Ongoing | In Progress |
@@ -226,10 +226,10 @@ Hearing none, Ohad thanked everyone: **"See you in the next call in two weeks at
 
 ## Glossary
 
-- **v0.14.1**: Planned Starknet upgrade for late November 2025 including SNIP-34 and RPC 1.0
+- **v0.14.1**: Planned Starknet upgrade for late November 2025 including SNIP-34 and RPC v0.10
 - **v0.14.2**: Future Starknet upgrade replacing committer with Rust implementation
 - **SNIP-34**: Starknet Improvement Proposal #34; specific upgrade being included in v0.14.1
-- **RPC 1.0**: First major version of JSON-RPC specification; RC (release candidate) published
+- **RPC v0.10**: JSON-RPC specification version 0.10; RC (release candidate) published
 - **Aerospike**: High-performance NoSQL database causing committer failures; being removed in v0.14.2
 - **Committer**: Component calculating hashes after blocks are ready; has 10-block gap limit before halting network
 - **Rust committer**: New committer implementation in Rust programming language; faster and Aerospike-independent

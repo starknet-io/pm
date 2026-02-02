@@ -141,7 +141,7 @@ Krisztian concluded: **"We had our fair share of problems during this Starknet v
 
 Aayush added with hope: **"We hope that this thing does not happen again."** Krisztian agreed emphatically.
 
-**Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
+**Juno** ([Rodrigo Pino](https://github.com/rodrodros)):
 
 Aayush recalled Rodrigo had just released the latest version with UX improvements planned in Call #34. He asked how the recent release went, how Tendermint optimization is performing in production (network partition handling and write-ahead logs), and overall experience during the mainnet upgrade.
 
