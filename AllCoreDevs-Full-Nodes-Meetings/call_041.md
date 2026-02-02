@@ -19,7 +19,7 @@ This critical pre-mainnet deployment meeting occurred just 6 days before the Dec
 - **Testnet backward compatibility issues fully resolved** - will be triple-checked with back-to-back 0.14.0→0.14.1 upgrade test on December 8 (Sunday)
 - **Major testnet incident resolved** - blockifier/SHARP inconsistency in specific syscall revert scenarios fixed; rigorous checks completed on all similar syscalls
 - **All client teams ready for mainnet deployment** - Pathfinder v0.21.3, Juno with full v0.14.1 support, Karnot completing v0.14.1 with 6-7K blocks tested
-- **RPC v1.0 adoption progressing** - final spec supported by Pathfinder and Juno; wider adoption expected as API libraries roll out support
+- **RPC v0.10 adoption progressing** - latest spec supported by Pathfinder and Juno; wider adoption expected as API libraries roll out support
 - **Roadmap communication postponed** - Starkware evaluating 2026 priorities (cost/throughput improvements, decentralized validation by mid-year) before publishing detailed roadmap
 - **Malachite v0.6 release imminent** - API breaking changes expected; Circle coordinating release timing
 - **Starknet Foundation governance announcement** - upcoming poll for token holders in December; call for developer delegates
@@ -114,9 +114,9 @@ They've also found **a couple of smaller inconsistencies**. In particular, **tha
 
 Krisztian stated: **"As far as we understand, this latest release of Pathfinder is now ready for the mainnet upgrade next week."** He doesn't really expect **any showstopper issues to show up** with that.
 
-**RPC v1.0 Support:**
+**RPC v0.10 Support:**
 
-Aayush asked about RPC v1.0 adoption status.
+Aayush asked about RPC v0.10 adoption status.
 
 Krisztian confirmed the latest release **does support the latest version of the specification—the final version**. He doesn't know of any potential issues with that, but they'll see as **adoption for the new JSON RPC version becomes more widespread**.
 
@@ -136,11 +136,11 @@ Aayush thanked Krisztian for the update.
 
 #### **Juno** ([Rodrigo Pino](https://github.com/rodiazet)):
 
-Aayush noted they didn't hear from Rodrigo in the last call—he believed Rodrigo was at Devcon/EthCC at that time. He asked for a comprehensive update on where Juno stands with v0.14.1 and readiness for the December 10 mainnet deployment, plus RPC v1.0 implementation progress and any recent releases or improvements since early November.
+Aayush noted they didn't hear from Rodrigo in the last call—he believed Rodrigo was at Devcon/EthCC at that time. He asked for a comprehensive update on where Juno stands with v0.14.1 and readiness for the December 10 mainnet deployment, plus RPC v0.10 implementation progress and any recent releases or improvements since early November.
 
 **v0.14.1 Readiness:**
 
-Rodrigo confirmed: **"By this point we already have full support for Starknet v0.14.1."** Anyone who has the **latest version of Juno is going to have full support for RPC v1.0 and will also be able to support the latest network**. Everyone who's a **Juno manager should already be upgraded**.
+Rodrigo confirmed: **"By this point we already have full support for Starknet v0.14.1."** Anyone who has the **latest version of Juno is going to have full support for RPC v0.10 and will also be able to support the latest network**. Everyone who's a **Juno manager should already be upgraded**.
 
 **Inconsistency Fixes:**
 
@@ -281,7 +281,7 @@ Aayush thanked everyone for their time and contribution, wished them a great res
 | Mainnet v0.14.1 deployment confirmed for December 10, 2025 | Testnet issues isolated and fixed; back-to-back upgrade test scheduled for December 8 to triple-check | Final go-ahead just 6 days before deployment; <10 min downtime expected |
 | Back-to-back v0.14.0→v0.14.1 upgrade test on Sunday, December 8 | Exact images that will be used on mainnet; ensures no repeat of testnet backward compatibility issues | Triple verification before production deployment |
 | All client teams cleared for mainnet deployment | Pathfinder v0.21.3, Juno with full v0.14.1 support, Karnot completing v0.14.1 testing | Ecosystem ready for December 10 upgrade |
-| RPC v0.9 backward compatibility maintained | Not requiring immediate RPC v1.0 migration allows gradual adoption | Validator attestation tools and existing infrastructure continue working |
+| RPC v0.9 backward compatibility maintained | Not requiring immediate RPC v0.10 migration allows gradual adoption | Validator attestation tools and existing infrastructure continue working |
 | Roadmap communication postponed until 2026 priorities finalized | Starkware evaluating cost/throughput improvements and mid-2026 decentralized validation plans | More concrete roadmap expected in coming weeks after internal evaluation |
 | Malachite v0.6 API breaking changes announced | Code cleanup removing unused functionality; Circle coordinating release | Client teams need to update consensus integration; details by December 18 call |
 
@@ -292,7 +292,7 @@ Aayush thanked everyone for their time and contribution, wished them a great res
 | Starkware | Execute back-to-back v0.14.0→v0.14.1 upgrade test with exact mainnet images | Sunday, December 8, 2025 | Scheduled |
 | Starkware | Deploy mainnet v0.14.1 | Tuesday, December 10, 2025 | Scheduled |
 | [Krisztian Kovacs](https://github.com/kkovaacs) | Monitor Pathfinder v0.21.3 in production ahead of mainnet upgrade | December 4-10, 2025 | In Progress |
-| Pathfinder team | Monitor RPC v1.0 adoption and issues as API libraries roll out support | Ongoing | In Progress |
+| Pathfinder team | Monitor RPC v0.10 adoption and issues as API libraries roll out support | Ongoing | In Progress |
 | [Rodrigo Pino](https://github.com/rodiazet) | Release Juno with Starknet Go inconsistency fixes | Soon | In Progress |
 | Juno team | Ensure all Juno node operators upgrade to latest version before December 10 | Before December 10, 2025 | In Progress |
 | [Heemank Verma](https://github.com/heemankv) | Complete v0.14.1 compatibility for Madara and SNOS | Call #42 (December 18, 2025) | In Progress |
@@ -326,7 +326,7 @@ Aayush thanked everyone for their time and contribution, wished them a great res
 ## Glossary
 
 - **v0.14.0**: Current Starknet version deployed on mainnet; features 6-second blocks
-- **v0.14.1**: Upcoming Starknet upgrade introducing Blake2 hash function and JSON RPC v1.0; mainnet deployment December 10, 2025
+- **v0.14.1**: Upcoming Starknet upgrade introducing Blake2 hash function and JSON RPC v0.10; mainnet deployment December 10, 2025
 - **Backward compatibility**: Ability of new version to work correctly when upgrading from previous version; testnet issues stemmed from breaking changes
 - **Back-to-back upgrade**: Testing v0.14.0→v0.14.1 upgrade with exact production images; scheduled for December 8
 - **Testnet (Sepolia)**: Public test network for validating upgrades before mainnet deployment
@@ -336,14 +336,15 @@ Aayush thanked everyone for their time and contribution, wished them a great res
 - **SHARP (Shared Prover)**: Starknet's proving system that generates validity proofs for state transitions
 - **Syscall (System Call)**: Low-level function call from smart contract to the Starknet OS
 - **Revert**: Transaction execution failure that rolls back state changes; specific revert scenarios caused blockifier/SHARP inconsistency
-- **JSON RPC v1.0**: Latest version of Starknet's JSON-RPC API specification; final version released
+- **JSON RPC v0.10**: Latest version of Starknet's JSON-RPC API specification; current stable version
 - **JSON RPC v0.9**: Previous JSON RPC version; backward compatibility maintained for gradual migration
+- **JSON RPC v1.0**: Future major version expected with decentralization
 - **Pathfinder v0.21.3**: Latest Pathfinder release (December 3) with blockifier consistency fixes; ready for mainnet
 - **Starknet Go**: Nethermind's Go implementation providing test cases that exposed inconsistencies
 - **Starknet RS / Starknet Rust**: Rust SDK for Starknet development; name in transition
 - **RPC (Remote Procedure Call)**: API protocol for interacting with Starknet nodes
-- **API libraries**: Developer libraries wrapping RPC calls; rolling out RPC v1.0 support
-- **Validator attestation tool**: Tool used by validators to attest to block validity; doesn't require RPC v1.0 migration
+- **API libraries**: Developer libraries wrapping RPC calls; rolling out RPC v0.10 support
+- **Validator attestation tool**: Tool used by validators to attest to block validity; doesn't require RPC v0.10 migration
 - **Feeder Gateway**: Centralized API endpoint serving blockchain data
 - **Transaction traces**: Detailed execution information for transactions in a block
 - **Madara**: Full node implementation by Karnot
