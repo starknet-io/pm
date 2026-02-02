@@ -90,7 +90,7 @@ Core contributors include teams from:
 ### How to Contribute
 
 1. **Propose Agenda Items** - Add comments to upcoming meeting issues to suggest discussion topics
-2. **Join Meetings** - Protocol developers, client developers, and researchers are encouraged to attend. Contact [Aayush Giri](mailto:aayush@nethermind.io) or [Leonardo Lerer](mailto:leo@starkware.co) for calendar invites
+2. **Join Meetings** - Protocol developers, client developers, and researchers are encouraged to attend. Contact [Aayush Giri](mailto:aayush@nethermind.io) for calendar invites
 3. **Review Meeting Notes** - Provide technical feedback and corrections via GitHub issues
 4. **Participate in Technical Discussions** - Join the conversation in Slack channels and the [Starknet Forum](https://community.starknet.io/)
 5. **Contribute to SNIPs** - Propose protocol improvements through the [SNIP process](https://github.com/starknet-io/SNIPs)
