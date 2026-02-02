@@ -16,7 +16,7 @@
 This was the **first Starknet All Core Devs Call of 2026**, featuring an extended session for a special presentation on Propeller, a new P2P messaging protocol. Key outcomes included:
 
 - **2026 Roadmap announced: v0.15 decentralized validation by end of Q3 2026** - Apollo setup with community validators voting on blocks; step-by-step progression through 0.14.x versions
-- **Mainnet reorg incident disclosed** - Occurred January 13, 2026; caused by batching/proving service disagreement due to incomplete revert handling; 507 blocks affected; quickly patched
+- **Mainnet reorg incident disclosed** - Occurred January 5, 2026; caused by batching/proving service disagreement due to incomplete revert handling; 507 blocks affected; quickly patched
 - **Propeller P2P protocol presented** - New high-throughput block propagation protocol using Reed-Solomon error correction; achieves 10 MB/s with 50 nodes; designed for Tendermint consensus
 - **Pathfinder v0.21.5 released** - Fixed blockifier dependency for reorg and HTTP/2 syncing bug; Q1 focus on consensus implementation
 - **Juno targeting 40% database size reduction** - Migration release expected end of January; improved trie coming Feb/March
@@ -68,9 +68,9 @@ Aayush asked for an update on the 502 errors from the December deployment.
 
 Eitan explained the DNS caching issue: Starkware recommends a certain cache duration, but servers cannot force clients to adhere to this recommendation. Users who cached DNS longer than recommended experienced extended access issues. For future upgrades, they are considering backend workarounds to help users who may not have followed the recommendations.
 
-**Mainnet Reorg Incident (January 13, 2026)**
+**Mainnet Reorg Incident (January 5, 2026)**
 
-Eitan disclosed a significant incident that occurred the previous Monday (January 13, 2026).
+Eitan disclosed a significant incident that occurred on January 5, 2026. ([Incident Report](https://www.starknet.io/blog/starknet-incident-report-january-5-2026/))
 
 **What Happened:**
 - A disagreement was detected between the batching service and the proving service
@@ -318,7 +318,7 @@ Aayush closed the call thanking everyone for joining the first call of 2026. He 
 - **2F Threshold**: Number of shards needed to "receive" a message in Propeller; ensures gossip property
 - **Merkle Root**: Cryptographic hash of all shards; signed by proposer to prevent manipulation
 - **Tendermint**: BFT consensus protocol that Propeller is designed to support
-- **Reorg (Reorganization)**: Rolling back blocks due to consensus disagreement; occurred January 13, 2026
+- **Reorg (Reorganization)**: Rolling back blocks due to consensus disagreement; occurred January 5, 2026
 - **Batching Service**: Starkware component that batches transactions into blocks
 - **Proving Service**: Starkware component that generates validity proofs; detected the execution bug
 - **Blockifier**: Transaction execution component; updated in Pathfinder for reorg compatibility

@@ -15,7 +15,7 @@
 
 This meeting returned to the regular 30-minute format and covered network stability, decentralization progress, and significant client team developments. Key outcomes included:
 
-- **Network stable since reorg** - No incidents since January 13; postmortem published on starknet.io
+- **Network stable since reorg** - No incidents since January 5; postmortem published on starknet.io
 - **Decentralized validation preparations underway** - Starkware engaging stakers on expectations; working on observability, alerting, key management, and sync time considerations
 - **New RPC crates published (dev versions)** - Blockifier and Starknet API crates released for testing; JSON RPC 0.10.1 releasing before v0.14.2 compatibility
 - **Pathfinder pre-release coming** - Will include client-side proofs support for testing; database migration required
@@ -182,7 +182,7 @@ Aayush closed the call thanking everyone for joining and sharing updates.
 ## Key Decisions Summary
 
 1. **Network Confirmed Stable Post-Reorg**
-   - No incidents since January 13, 2026
+   - No incidents since January 5, 2026
    - Postmortem published on starknet.io
 
 2. **JSON RPC 0.10.1 Releasing Before v0.14.2**
@@ -244,7 +244,7 @@ Aayush closed the call thanking everyone for joining and sharing updates.
 
 ## Glossary
 
-- **Reorg (Reorganization)**: Block rollback due to consensus issues; January 13 incident affected 507 blocks
+- **Reorg (Reorganization)**: Block rollback due to consensus issues; January 5 incident affected 507 blocks
 - **Postmortem**: Incident analysis report; published on starknet.io
 - **Observability**: Tools and systems for monitoring node performance and health
 - **Key Management**: Solutions for securely managing validator signing keys

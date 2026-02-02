@@ -15,10 +15,10 @@
 
 This pre-v0.14.1 coordination meeting was moderated by **[Eitan Moed](https://github.com/eitanm-starkware)** (Aayush on flight). Focus: v0.14.1 deployment timeline and readiness assessment one month before mainnet. Key outcomes:
 
-- **v0.14.1 pre-release notes published**; RPC 1.0 RC1 published same day
+- **v0.14.1 pre-release notes published**; RPC v0.10 RC1 published same day
 - **Major change: Blake2 hash function replacing Poseidon** in v0.14.1
 - **Integration: October 28th** | **Testnet: November 11th** | **Mainnet: November 25th**
-- RPC jumping from 0.9 to 1.0—great opportunity for last-minute additions
+- RPC jumping from 0.9 to 0.10—great opportunity for last-minute additions
 - Pathfinder working on Kasm change; released bug fix for estimate_fee, syncing timeout, and deploy_account simulation
 - **Juno implemented Blake2 cache** (Go requirement); concerned about class hash trie handling across v0.14.1 boundary
 - Juno adding WebSocket latest UX improvement to subscription-based requests; release next week
@@ -41,7 +41,7 @@ The meeting opened with [Eitan Moed](https://github.com/eitanm-starkware) noting
 
 The **big thing in v0.14.1 is the implementation of Blake usage as a hash function from Poseidon**.
 
-Around that, **a new RPC version 1.0.0** will be introduced as well. The **next release candidate (RC1) was also published in the past hour**. If anyone has notes or anything else they'd like to introduce, **it's a great opportunity because we're jumping from 0.9 to 1.0**—please let [Eitan](https://github.com/eitanm-starkware) know in the coming days. General feedback is more than welcome.
+Around that, **a new RPC version 0.10.0** will be introduced as well. The **next release candidate (RC1) was also published in the past hour**. If anyone has notes or anything else they'd like to introduce, **it's a great opportunity because we're jumping from 0.9 to 0.10**—please let [Eitan](https://github.com/eitanm-starkware) know in the coming days. General feedback is more than welcome.
 
 **Timeline:**
 
@@ -65,7 +65,7 @@ Chris responded: **they're working on it**. Essentially, they're **just starting
 
 Is there anything else they should mention?
 
-Vaclav added: they **started on RPC 1.0**—have a 1.0 API which is the same as 0.9—and are **going through the changes now**. They're all **very small except the new hash**, which is the main one. As Chris said, they're working on that.
+Vaclav added: they **started on RPC v0.10**—have a v0.10 API which is the same as 0.9—and are **going through the changes now**. They're all **very small except the new hash**, which is the main one. As Chris said, they're working on that.
 
 **Recent Release:**
 
@@ -182,8 +182,8 @@ The **next call is scheduled for Thursday, November 6 at 11:00 AM UTC**. All par
 
 | Decision | Rationale | Impact |
 |----------|-----------|---------|
-| v0.14.1 mainnet deployment November 25th | One month timeline from October 23rd; integration Oct 28, testnet Nov 11 | Gives client teams 4 weeks to implement Blake2 and RPC 1.0 |
-| RPC version jumping from 0.9 to 1.0 | Opportunity for consolidated major version bump | Last chance for teams to request additions before v1.0 finalization |
+| v0.14.1 mainnet deployment November 25th | One month timeline from October 23rd; integration Oct 28, testnet Nov 11 | Gives client teams 4 weeks to implement Blake2 and RPC v0.10 |
+| RPC version jumping from 0.9 to 0.10 | Opportunity for version bump | Last chance for teams to request additions before v0.10 finalization |
 | Max block time increased to 9 seconds | 50% increase covers transaction runtime miscalculation scenarios | Prevents 5-minute block proposal failures from recurring |
 | Better caching for preconfirmed data queries | Prevents database overload that stalls committer | Reduces database overhead during high-volume preconfirmed queries |
 | Malachite v0.6 release delayed ~2 weeks | Bug not critical; Informal and Circle forks now matching | Wait for official Circle release rather than releasing from Informal crates |
@@ -193,12 +193,12 @@ The **next call is scheduled for Thursday, November 6 at 11:00 AM UTC**. All par
 | Action Item | Owner | Target Date | Status |
 |-------------|-------|-------------|--------|
 | Review v0.14.1 pre-release notes and provide feedback | All client teams | ASAP | Pending |
-| Submit any last additions for RPC 1.0 | All teams | Coming days | Open |
+| Submit any last additions for RPC v0.10 | All teams | Coming days | Open |
 | Deploy v0.14.1 to integration network | Starkware (Eitan) | October 28, 2025 | Scheduled |
 | Deploy v0.14.1 to testnet | Starkware (Eitan) | November 11, 2025 | Scheduled |
 | Deploy v0.14.1 to mainnet | Starkware (Eitan) | November 25, 2025 | Scheduled |
 | Implement Kasm (Blake2) change in Pathfinder | Equilibrium | Pre-Nov 25, 2025 | In Progress |
-| Implement RPC 1.0 in Pathfinder | Equilibrium | Pre-Nov 25, 2025 | In Progress |
+| Implement RPC v0.10 in Pathfinder | Equilibrium | Pre-Nov 25, 2025 | In Progress |
 | Answer Juno's class hash trie question for v0.14.1 boundary | Starkware (Eitan) | ASAP | Pending |
 | Release Juno with WebSocket subscription UX improvements | Juno (Rodrigo) | Week of Oct 28, 2025 | Planned |
 | Evaluate Madara v0.14.1 work after completing v0.14.0 bump | Karnot (Heemank) | TBD | Not Started |
@@ -220,11 +220,11 @@ The **next call is scheduled for Thursday, November 6 at 11:00 AM UTC**. All par
 
 ## Glossary
 
-- **v0.14.1**: Starknet upgrade introducing Blake2 hash function and RPC 1.0; deploying November 25, 2025
+- **v0.14.1**: Starknet upgrade introducing Blake2 hash function and RPC v0.10; deploying November 25, 2025
 - **Blake2**: Cryptographic hash function replacing Poseidon in v0.14.1
 - **Poseidon**: Previous hash function being replaced by Blake2 in v0.14.1
 - **Kasm**: Related to Blake2 implementation (specific component requiring changes)
-- **RPC 1.0**: First major version of JSON-RPC API specification; significant jump from 0.9
+- **RPC v0.10**: Latest version of JSON-RPC API specification; jump from 0.9
 - **RC (Release Candidate)**: Pre-release version for testing before final release
 - **Pre-release notes**: Documentation published before release describing upcoming changes
 - **Integration network**: First testing environment for validating new versions
