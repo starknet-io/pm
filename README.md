@@ -1,7 +1,7 @@
 # Starknet Project Management Repository
 
 [![Meeting Frequency](https://img.shields.io/badge/Meetings-Bi--weekly-blue)](https://github.com/starknet-io/pm/issues)
-[![Next Meeting](https://img.shields.io/badge/Next%20Meeting-Nov%2020%2C%202025-green)](https://github.com/starknet-io/pm/issues)
+[![Next Meeting](https://img.shields.io/badge/Next%20Meeting-Feb%2012%2C%202026-green)](https://github.com/starknet-io/pm/issues)
 [![YouTube](https://img.shields.io/badge/YouTube-Recordings-red?logo=youtube)](https://www.youtube.com/playlist?list=PLMXIoXErTTYW7_3FjybBzJXhfZwvSchPa)
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
 
@@ -10,7 +10,7 @@ This repository serves as the central coordination hub for [Starknet](https://ww
 ## Quick Links
 
 - [Meeting Schedule & Agendas](https://github.com/starknet-io/pm/issues)
-- [Latest Meeting Notes](AllCoreDevs-Full-Nodes-Meetings/call_039.md)
+- [Latest Meeting Notes](AllCoreDevs-Full-Nodes-Meetings/call_044.md)
 - [Video Recordings](https://www.youtube.com/@starknet_foundation/playlists)
 - [Starknet Forum](https://community.starknet.io/)
 
@@ -18,10 +18,10 @@ This repository serves as the central coordination hub for [Starknet](https://ww
 
 Recent calls have focused on:
 
-- **v0.14.1 Protocol Upgrade** - Blake2 hash function replacing Poseidon, RPC 1.0 implementation, potential deployment delays due to starknet.rs SDK ownership transfer
+- **v0.14.1 Protocol Upgrade** - Blake2 hash function replacing Poseidon, RPC v0.10 implementation, potential deployment delays due to starknet-rs SDK ownership transfer
 - **Network Stability & Performance** - Post-v0.14.0 stability improvements, Aerospike dependency elimination, committer resilience, L1 handler transaction optimization
 - **Client Implementation Progress** - Pathfinder v0.14.1 integration, Juno syncing optimizations for 6-second blocks, Madara snap sync 5x performance improvements
-- **RPC Specification Evolution** - JSON-RPC 1.0 adoption, Blake2 hash precomputation strategies, state diff handling for migrated classes
+- **RPC Specification Evolution** - JSON-RPC v0.10 adoption, Blake2 hash precomputation strategies, state diff handling for migrated classes
 - **Consensus Development** - Malachite v0.6 release coordination, Pathfinder consensus implementation, interoperability testing
 - **State Management** - Class hash trie handling, preconfirmed state execution, global state root calculations
 
@@ -104,6 +104,11 @@ Core contributors include teams from:
 
 | № | Date | Agenda | Notes | Recording |
 | --- | ------ | ----- | ----- | ----- |
+| 44 | Thursday, January 29, 2026, 12:00-12:30 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/34) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_044.md) | [video](https://www.youtube.com/watch?v=8_Li3FTuhT8) |
+| 43 | Thursday, January 15, 2026, 12:00-12:45 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/33) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_043.md) | [video](https://www.youtube.com/watch?v=1BKf3WRh1i8) |
+| 42 | Thursday, December 18, 2025, 12:00-12:30 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/32) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_042.md) | [video](https://www.youtube.com/watch?v=Fn5Mcw2nz3E) |
+| 41 | Thursday, December 4, 2025, 12:00-12:30 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/31) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_041.md) | [video](https://www.youtube.com/live/czfsMHOCviI) |
+| 40 | Wednesday, November 20, 2025, 12:00-12:30 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/30) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_040.md) | [video](https://www.youtube.com/live/-Wh7fROqx_o) |
 | 39 | Thursday, November 6, 2025, 12:00-12:30 PM UTC | [agenda](https://github.com/starknet-io/pm/issues/29) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_039.md) | [video](https://www.youtube.com/live/UtKwgM8DV4U) |
 | 38 | Thursday, October 23, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/28) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_038.md) | [video](https://www.youtube.com/live/BjRMtKVP5Sw) |
 | 37 | Thursday, October 9, 2025, 11:00-11:30 AM UTC | [agenda](https://github.com/starknet-io/pm/issues/27) | [notes](https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_037.md) | [video](https://www.youtube.com/live/ioXc1xvrAWs) |
