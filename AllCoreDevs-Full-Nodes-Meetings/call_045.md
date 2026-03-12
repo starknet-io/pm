@@ -108,7 +108,7 @@ On RPC 0.10.1, the starknet-rs pull request received a review approximately two 
 
 ### 3. Consensus Implementation Updates (Skipped)
 
-The Malachite team from Informal Systems was not present for the fourth consecutive call (Call #42 through Call #45). No consensus update was provided.
+The Malachite team from Informal Systems was not present. Aayush has been informed that the Malachite team will no longer be attending these calls going forward. No consensus update was provided.
 
 ---
 
@@ -165,7 +165,7 @@ Aayush thanked all attendees for their updates and closed the session.
 | Karnot team | Resolve mainnet class compilation issue blocking mainnet sync | TBD | Blocked |
 | Karnot team | Complete starknet-rs PR review and merge for RPC 0.10.1 | Shortly after review | In Progress |
 | Karnot team | Finalize and share merkleization optimization design | After internal vetting | In Progress |
-| [Aayush Giri](https://github.com/Giri-Aayush) | Make announcement regarding Malachite team absence | Call #46 | Planned |
+| [Aayush Giri](https://github.com/Giri-Aayush) | Communicate Malachite non-attendance to the community | Call #46 | Planned |
 
 ---
 
@@ -197,7 +197,7 @@ Aayush thanked all attendees for their updates and closed the session.
 - **Main Table (Write Buffer)**: Database buffer that keeps recently written data in memory; improves RPC response latency for recent data
 - **Merkleization**: Process of updating Merkle tree state after each block; identified as a major performance bottleneck (60–80% of sequencing/sync time)
 - **State Trie**: Data structure encoding the full Starknet state; Juno working on an improved version for better storage efficiency
-- **Malachite**: BFT consensus engine by Informal Systems; team absent since Call #42
+- **Malachite**: BFT consensus engine by Informal Systems; team has confirmed they will no longer be attending these calls
 - **Apollo**: Starkware's sequencer implementation used as the reference for validator implementation work
 
 ---

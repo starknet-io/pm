@@ -30,6 +30,13 @@ Recent calls have focused on:
 <table>
   <tr>
     <td align="center">
+      <b>Call #46</b><br>
+      Feb 26, 2026<br>
+      <a href="https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_046.md">
+        <img src="AllCoreDevs-Full-Nodes-Meetings/images/call_046_attendees.png" width="280"/>
+      </a>
+    </td>
+    <td align="center">
       <b>Call #45</b><br>
       Feb 12, 2026<br>
       <a href="https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_045.md">
@@ -41,13 +48,6 @@ Recent calls have focused on:
       Jan 29, 2026<br>
       <a href="https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_044.md">
         <img src="AllCoreDevs-Full-Nodes-Meetings/images/call_044_attendees.png" width="280"/>
-      </a>
-    </td>
-    <td align="center">
-      <b>Call #43</b><br>
-      Jan 15, 2026<br>
-      <a href="https://github.com/starknet-io/pm/blob/main/AllCoreDevs-Full-Nodes-Meetings/call_043.md">
-        <img src="AllCoreDevs-Full-Nodes-Meetings/images/call_043_attendees.png" width="280"/>
       </a>
     </td>
   </tr>
